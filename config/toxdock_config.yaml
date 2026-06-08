@@ -1,0 +1,27 @@
+# ToxDock-Bench pipeline configuration (ToxAffinity root layout).
+# Paths are relative to TOXAFFINITY_ROOT unless absolute.
+
+base_dir: "."
+protein_dir: "input/proteins"
+ligand_dir: "input/ligands_nodubl"
+processed_dir: "processed"
+output_dir: "results"
+
+protein_settings_file: "config/protein_settings_keep_cofactors_v2.yaml"
+box_settings_file: null
+interaction_config_file: null
+
+labox:
+  method: "labox"
+  scale: 2.0
+  min_size: 4.0
+  fallback_method: "default"
+
+random_state: 42
+
+# Primary docking methods for the 16-target toxicity panel
+methods:
+  - qvina
+  - gnina
+  - plapt
+  - dynamicbind

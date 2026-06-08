@@ -1,0 +1,38 @@
+REMARK SMILES O=C1NCCn2cc(CO)c3cccc1c32
+REMARK SMILES IDX 6 1 7 2 8 3 11 4 12 5 13 6 14 7 15 8 16 9 2 10 1 11 3 12
+REMARK SMILES IDX 4 14 5 16 9 18 10 19
+REMARK H PARENT 3 13 10 20
+REMARK Flexibility Score:    5.900
+ROOT
+ATOM      1  N   UNL     1      -0.051  -0.898  -0.531  1.00  0.00    -0.345 N 
+ATOM      2  C   UNL     1       1.290  -1.105  -0.698  1.00  0.00     0.093 A 
+ATOM      3  C   UNL     1       1.975  -0.064  -0.107  1.00  0.00     0.003 A 
+ATOM      4  C   UNL     1       0.982   0.817   0.432  1.00  0.00     0.006 A 
+ATOM      5  C   UNL     1       1.069   2.040   1.132  1.00  0.00     0.011 A 
+ATOM      6  C   UNL     1      -0.093   2.696   1.533  1.00  0.00     0.002 A 
+ATOM      7  C   UNL     1      -1.337   2.146   1.247  1.00  0.00     0.016 A 
+ATOM      8  C   UNL     1      -1.470   0.922   0.561  1.00  0.00     0.064 A 
+ATOM      9  C   UNL     1      -0.284   0.274   0.156  1.00  0.00     0.061 A 
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -2.851   0.441   0.299  1.00  0.00     0.253 C 
+ATOM     11  O   UNL     1      -3.803   1.213   0.399  1.00  0.00    -0.269 OA
+ATOM     12  N   UNL     1      -3.112  -0.860  -0.041  1.00  0.00    -0.350 N 
+ATOM     13  H   UNL     1      -4.107  -1.046  -0.103  1.00  0.00     0.163 HD
+BRANCH  12  14
+ATOM     14  C   UNL     1      -2.202  -1.983  -0.014  1.00  0.00     0.138 CG0
+ATOM     15  G   UNL     1      -1.064  -1.822  -1.005  1.00  0.00     0.000 G0
+ENDBRANCH  12  14
+ENDBRANCH   8  10
+BRANCH   1  16
+ATOM     16  C   UNL     1      -1.064  -1.822  -1.005  1.00  0.00     0.143 CG0
+ATOM     17  G   UNL     1      -2.202  -1.983  -0.014  1.00  0.00     0.000 G0
+ENDBRANCH   1  16
+BRANCH   3  18
+ATOM     18  C   UNL     1       3.453   0.128  -0.046  1.00  0.00     0.193 C 
+BRANCH  18  19
+ATOM     19  O   UNL     1       4.168  -1.022  -0.489  1.00  0.00    -0.392 OA
+ATOM     20  H   UNL     1       5.110  -0.800  -0.423  1.00  0.00     0.211 HD
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 2

@@ -1,0 +1,4092 @@
+{
+  "input_directory": "data/input/ligands_nodubl",
+  "total_files": 23,
+  "files": [
+    {
+      "file": "ABL1_BCR-ABL_Ki_WT_ChEMBL_693_nodubl.csv",
+      "total_rows": 693,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 682,
+        "total_rows": 693,
+        "duplicate_smiles_count": 9,
+        "rows_with_duplicate_smiles": 20,
+        "duplicate_smiles": {
+          "ClC(Cn1ncc2c(NCc3ccccc3)ncnc21)c1ccccc1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "ClC(Cn1ncc2c(NCc3ccccc3)ncnc21)c1ccccc1",
+                "standard_value": 370.0,
+                "assay_chembl_id": "CHEMBL1837743",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "ClC(Cn1ncc2c(NCc3ccccc3)ncnc21)c1ccccc1",
+                "standard_value": 371.54,
+                "assay_chembl_id": "CHEMBL4616958",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "ClC(Cn1ncc2c(NCc3ccccc3)ncnc21)c1ccccc1",
+                "standard_value": 400.0,
+                "assay_chembl_id": "CHEMBL948149",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+                "standard_value": 37.0,
+                "assay_chembl_id": "CHEMBL1249638",
+                "molecule_pref_name": "IMATINIB"
+              },
+              {
+                "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+                "standard_value": 7000.0,
+                "assay_chembl_id": "CHEMBL1249639",
+                "molecule_pref_name": "IMATINIB"
+              },
+              {
+                "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+                "standard_value": 13.0,
+                "assay_chembl_id": "CHEMBL932076",
+                "molecule_pref_name": "IMATINIB"
+              }
+            ]
+          },
+          "ClC(Cn1ncc2c(Nc3ccccc3)nc(SCCN3CCOCC3)nc21)c1ccccc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "ClC(Cn1ncc2c(Nc3ccccc3)nc(SCCN3CCOCC3)nc21)c1ccccc1",
+                "standard_value": 150.0,
+                "assay_chembl_id": "CHEMBL1776290",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "ClC(Cn1ncc2c(Nc3ccccc3)nc(SCCN3CCOCC3)nc21)c1ccccc1",
+                "standard_value": 220.0,
+                "assay_chembl_id": "CHEMBL3395760",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CSc1nc(NCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CSc1nc(NCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 260.0,
+                "assay_chembl_id": "CHEMBL1056610",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CSc1nc(NCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 300.0,
+                "assay_chembl_id": "CHEMBL962773",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CSc1nc(NCc2ccccc2Cl)c2cnn(CC(Cl)c3ccccc3)c2n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CSc1nc(NCc2ccccc2Cl)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 90.0,
+                "assay_chembl_id": "CHEMBL1056610",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CSc1nc(NCc2ccccc2Cl)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 89.0,
+                "assay_chembl_id": "CHEMBL1837743",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Clc1cccc(Nc2nc(SCCN3CCOCC3)nc3c2cnn3CC(Cl)c2ccccc2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Clc1cccc(Nc2nc(SCCN3CCOCC3)nc3c2cnn3CC(Cl)c2ccccc2)c1",
+                "standard_value": 120.0,
+                "assay_chembl_id": "CHEMBL1776290",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Clc1cccc(Nc2nc(SCCN3CCOCC3)nc3c2cnn3CC(Cl)c2ccccc2)c1",
+                "standard_value": 180.0,
+                "assay_chembl_id": "CHEMBL3395760",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCCCNc1nc(SCCC)nc2c1cnn2CC(Cl)c1ccccc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCCNc1nc(SCCC)nc2c1cnn2CC(Cl)c1ccccc1",
+                "standard_value": 524.81,
+                "assay_chembl_id": "CHEMBL4616958",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCCNc1nc(SCCC)nc2c1cnn2CC(Cl)c1ccccc1",
+                "standard_value": 520.0,
+                "assay_chembl_id": "CHEMBL962773",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CSc1nc(NCCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CSc1nc(NCCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 7030.0,
+                "assay_chembl_id": "CHEMBL1056610",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CSc1nc(NCCc2ccccc2)c2cnn(CC(Cl)c3ccccc3)c2n1",
+                "standard_value": 7300.0,
+                "assay_chembl_id": "CHEMBL962773",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1cc(-c2c(Cl)cccc2Cl)cc2nnc(Nc3ccc(OCCN4CCCC4)cc3)nc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cc(-c2c(Cl)cccc2Cl)cc2nnc(Nc3ccc(OCCN4CCCC4)cc3)nc12",
+                "standard_value": 19.4,
+                "assay_chembl_id": "CHEMBL905850",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1cc(-c2c(Cl)cccc2Cl)cc2nnc(Nc3ccc(OCCN4CCCC4)cc3)nc12",
+                "standard_value": 20.0,
+                "assay_chembl_id": "CHEMBL923928",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 693,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "Acetylcholinesterase_AChE_Ki_WT_ChEMBL_499_nodubl.csv",
+      "total_rows": 499,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 438,
+        "total_rows": 499,
+        "duplicate_smiles_count": 44,
+        "rows_with_duplicate_smiles": 105,
+        "duplicate_smiles": {
+          "Nc1c2c(nc3ccccc13)CCCC2": {
+            "count": 11,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 32.12,
+                "assay_chembl_id": "CHEMBL2162062",
+                "molecule_pref_name": "TACRINE"
+              },
+              {
+                "canonical_smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 35.7,
+                "assay_chembl_id": "CHEMBL3379803",
+                "molecule_pref_name": "TACRINE"
+              },
+              {
+                "canonical_smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 225.0,
+                "assay_chembl_id": "CHEMBL3379811",
+                "molecule_pref_name": "TACRINE"
+              },
+              {
+                "canonical_smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 101.0,
+                "assay_chembl_id": "CHEMBL3379812",
+                "molecule_pref_name": "TACRINE"
+              },
+              {
+                "canonical_smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 7.64,
+                "assay_chembl_id": "CHEMBL3790087",
+                "molecule_pref_name": "TACRINE"
+              }
+            ]
+          },
+          "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+                "standard_value": 300.0,
+                "assay_chembl_id": "CHEMBL1227597",
+                "molecule_pref_name": "GALANTAMINE"
+              },
+              {
+                "canonical_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+                "standard_value": 61.96,
+                "assay_chembl_id": "CHEMBL2162062",
+                "molecule_pref_name": "GALANTAMINE"
+              },
+              {
+                "canonical_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+                "standard_value": 61.9,
+                "assay_chembl_id": "CHEMBL3379803",
+                "molecule_pref_name": "GALANTAMINE"
+              },
+              {
+                "canonical_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+                "standard_value": 250.0,
+                "assay_chembl_id": "CHEMBL3588578",
+                "molecule_pref_name": "GALANTAMINE"
+              },
+              {
+                "canonical_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5233362",
+                "molecule_pref_name": "GALANTAMINE"
+              }
+            ]
+          },
+          "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+                "standard_value": 7.2,
+                "assay_chembl_id": "CHEMBL2317312",
+                "molecule_pref_name": "DONEPEZIL"
+              },
+              {
+                "canonical_smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+                "standard_value": 38.0,
+                "assay_chembl_id": "CHEMBL4274274",
+                "molecule_pref_name": "DONEPEZIL"
+              },
+              {
+                "canonical_smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+                "standard_value": 12.7,
+                "assay_chembl_id": "CHEMBL4616019",
+                "molecule_pref_name": "DONEPEZIL"
+              },
+              {
+                "canonical_smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+                "standard_value": 20.5,
+                "assay_chembl_id": "CHEMBL641014",
+                "molecule_pref_name": "DONEPEZIL"
+              }
+            ]
+          },
+          "CC[N+](C)(C)c1cccc(O)c1.[Cl-]": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC[N+](C)(C)c1cccc(O)c1.[Cl-]",
+                "standard_value": 790.0,
+                "assay_chembl_id": "CHEMBL1671584",
+                "molecule_pref_name": "EDROPHONIUM CHLORIDE"
+              },
+              {
+                "canonical_smiles": "CC[N+](C)(C)c1cccc(O)c1.[Cl-]",
+                "standard_value": 4800.0,
+                "assay_chembl_id": "CHEMBL1671585",
+                "molecule_pref_name": "EDROPHONIUM CHLORIDE"
+              },
+              {
+                "canonical_smiles": "CC[N+](C)(C)c1cccc(O)c1.[Cl-]",
+                "standard_value": 200.0,
+                "assay_chembl_id": "CHEMBL641512",
+                "molecule_pref_name": "EDROPHONIUM CHLORIDE"
+              }
+            ]
+          },
+          "c1ccc2c(NCCCCCCCCSc3c4c(nc5ccccc35)CCCC4)c3c(nc2c1)CCCC3": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "c1ccc2c(NCCCCCCCCSc3c4c(nc5ccccc35)CCCC4)c3c(nc2c1)CCCC3",
+                "standard_value": 27.95,
+                "assay_chembl_id": "CHEMBL1002717",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "c1ccc2c(NCCCCCCCCSc3c4c(nc5ccccc35)CCCC4)c3c(nc2c1)CCCC3",
+                "standard_value": 28.0,
+                "assay_chembl_id": "CHEMBL3102254",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "c1ccc2c(NCCCCCCCCSc3c4c(nc5ccccc35)CCCC4)c3c(nc2c1)CCCC3",
+                "standard_value": 27.9,
+                "assay_chembl_id": "CHEMBL997710",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCOc1ccc(Cc2nc3cc(C(=O)N(CC)CC)ccc3n2CCCCCCNc2c3c(nc4ccccc24)CCCC3)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCOc1ccc(Cc2nc3cc(C(=O)N(CC)CC)ccc3n2CCCCCCNc2c3c(nc4ccccc24)CCCC3)cc1",
+                "standard_value": 88.5,
+                "assay_chembl_id": "CHEMBL4356273",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCOc1ccc(Cc2nc3cc(C(=O)N(CC)CC)ccc3n2CCCCCCNc2c3c(nc4ccccc24)CCCC3)cc1",
+                "standard_value": 206.0,
+                "assay_chembl_id": "CHEMBL4356299",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCOc1ccc(/C=N/NC(=O)CN2CCC(Cc3ccccc3)CC2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCOc1ccc(/C=N/NC(=O)CN2CCC(Cc3ccccc3)CC2)cc1",
+                "standard_value": 83800.0,
+                "assay_chembl_id": "CHEMBL2328863",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCOc1ccc(/C=N/NC(=O)CN2CCC(Cc3ccccc3)CC2)cc1",
+                "standard_value": 50800.0,
+                "assay_chembl_id": "CHEMBL2328864",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CC(=O)N(CCCCNc1c2c(nc3ccccc13)CCCC2)CCCSc1c2c(nc3ccccc13)CCCC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(=O)N(CCCCNc1c2c(nc3ccccc13)CCCC2)CCCSc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 20.88,
+                "assay_chembl_id": "CHEMBL1002717",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CC(=O)N(CCCCNc1c2c(nc3ccccc13)CCCC2)CCCSc1c2c(nc3ccccc13)CCCC2",
+                "standard_value": 27.95,
+                "assay_chembl_id": "CHEMBL965669",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1ccc2c(c[n+](C)c3c4cc5c(cc4ccc23)OCO5)c1OC.[Cl-]": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1ccc2c(c[n+](C)c3c4cc5c(cc4ccc23)OCO5)c1OC.[Cl-]",
+                "standard_value": 320.0,
+                "assay_chembl_id": "CHEMBL2166026",
+                "molecule_pref_name": "CHELERYTHRINE CHLORIDE"
+              },
+              {
+                "canonical_smiles": "COc1ccc2c(c[n+](C)c3c4cc5c(cc4ccc23)OCO5)c1OC.[Cl-]",
+                "standard_value": 1120.0,
+                "assay_chembl_id": "CHEMBL2166027",
+                "molecule_pref_name": "CHELERYTHRINE CHLORIDE"
+              }
+            ]
+          },
+          "CCNC(=O)c1ccc2nc(-c3ccc(Cl)cc3)c3c(c2c1)NCCC3": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCNC(=O)c1ccc2nc(-c3ccc(Cl)cc3)c3c(c2c1)NCCC3",
+                "standard_value": 73.0,
+                "assay_chembl_id": "CHEMBL3124379",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCNC(=O)c1ccc2nc(-c3ccc(Cl)cc3)c3c(c2c1)NCCC3",
+                "standard_value": 65.0,
+                "assay_chembl_id": "CHEMBL3124380",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 499,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "Androgen_receptor_Ki_WT_ChEMBL_516_nodubl.csv",
+      "total_rows": 516,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 484,
+        "total_rows": 516,
+        "duplicate_smiles_count": 17,
+        "rows_with_duplicate_smiles": 49,
+        "duplicate_smiles": {
+          "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1": {
+            "count": 5,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 3700.0,
+                "assay_chembl_id": "CHEMBL1013140",
+                "molecule_pref_name": "(R)-BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 509.0,
+                "assay_chembl_id": "CHEMBL4411915",
+                "molecule_pref_name": "(R)-BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 11.0,
+                "assay_chembl_id": "CHEMBL5140915",
+                "molecule_pref_name": "(R)-BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 151.0,
+                "assay_chembl_id": "CHEMBL891115",
+                "molecule_pref_name": "(R)-BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 70.0,
+                "assay_chembl_id": "CHEMBL896869",
+                "molecule_pref_name": "(R)-BICALUTAMIDE"
+              }
+            ]
+          },
+          "C[C@](O)(COc1ccc(C#N)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@](O)(COc1ccc(C#N)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 3.8,
+                "assay_chembl_id": "CHEMBL4411915",
+                "molecule_pref_name": "ENOBOSARM"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(COc1ccc(C#N)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 0.55,
+                "assay_chembl_id": "CHEMBL5140919",
+                "molecule_pref_name": "ENOBOSARM"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(COc1ccc(C#N)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 38.0,
+                "assay_chembl_id": "CHEMBL5340021",
+                "molecule_pref_name": "ENOBOSARM"
+              },
+              {
+                "canonical_smiles": "C[C@](O)(COc1ccc(C#N)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 20.2,
+                "assay_chembl_id": "CHEMBL5735908",
+                "molecule_pref_name": "ENOBOSARM"
+              }
+            ]
+          },
+          "CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F",
+                "standard_value": 28.2,
+                "assay_chembl_id": "CHEMBL3592212",
+                "molecule_pref_name": "ENZALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F",
+                "standard_value": 3641.0,
+                "assay_chembl_id": "CHEMBL4411915",
+                "molecule_pref_name": "ENZALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F",
+                "standard_value": 86.0,
+                "assay_chembl_id": "CHEMBL4710579",
+                "molecule_pref_name": "ENZALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F",
+                "standard_value": 2370.0,
+                "assay_chembl_id": "CHEMBL5534677",
+                "molecule_pref_name": "ENZALUTAMIDE"
+              }
+            ]
+          },
+          "C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12",
+                "standard_value": 4.7,
+                "assay_chembl_id": "CHEMBL1169306",
+                "molecule_pref_name": "STANOLONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12",
+                "standard_value": 10.0,
+                "assay_chembl_id": "CHEMBL1679746",
+                "molecule_pref_name": "STANOLONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12",
+                "standard_value": 2.0,
+                "assay_chembl_id": "CHEMBL648839",
+                "molecule_pref_name": "STANOLONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL896869",
+                "molecule_pref_name": "STANOLONE"
+              }
+            ]
+          },
+          "CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 160.2,
+                "assay_chembl_id": "CHEMBL3592212",
+                "molecule_pref_name": "BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 11.0,
+                "assay_chembl_id": "CHEMBL5127804",
+                "molecule_pref_name": "BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 40.0,
+                "assay_chembl_id": "CHEMBL5737046",
+                "molecule_pref_name": "BICALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
+                "standard_value": 19.0,
+                "assay_chembl_id": "CHEMBL858790",
+                "molecule_pref_name": "BICALUTAMIDE"
+              }
+            ]
+          },
+          "CN(C[C@](C)(O)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1)c1ccc(C#N)c(-c2ccccc2)c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(C[C@](C)(O)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1)c1ccc(C#N)c(-c2ccccc2)c1",
+                "standard_value": 78.0,
+                "assay_chembl_id": "CHEMBL4411915",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(C[C@](C)(O)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1)c1ccc(C#N)c(-c2ccccc2)c1",
+                "standard_value": 78.06,
+                "assay_chembl_id": "CHEMBL5239289",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(C[C@](C)(O)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1)c1ccc(C#N)c(-c2ccccc2)c1",
+                "standard_value": 28.4,
+                "assay_chembl_id": "CHEMBL5735908",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1ccc(N2C(=S)N(c3cnc(C#N)c(C(F)(F)F)c3)C(=O)C23CCC3)cc1F": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3cnc(C#N)c(C(F)(F)F)c3)C(=O)C23CCC3)cc1F",
+                "standard_value": 34.7,
+                "assay_chembl_id": "CHEMBL3592212",
+                "molecule_pref_name": "APALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3cnc(C#N)c(C(F)(F)F)c3)C(=O)C23CCC3)cc1F",
+                "standard_value": 1452.0,
+                "assay_chembl_id": "CHEMBL4411915",
+                "molecule_pref_name": "APALUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1ccc(N2C(=S)N(c3cnc(C#N)c(C(F)(F)F)c3)C(=O)C23CCC3)cc1F",
+                "standard_value": 93.0,
+                "assay_chembl_id": "CHEMBL4710579",
+                "molecule_pref_name": "APALUTAMIDE"
+              }
+            ]
+          },
+          "CC(O)c1cc(C(=O)N[C@@H](C)Cn2ccc(-c3ccc(C#N)c(Cl)c3)n2)n[nH]1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(O)c1cc(C(=O)N[C@@H](C)Cn2ccc(-c3ccc(C#N)c(Cl)c3)n2)n[nH]1",
+                "standard_value": 11.0,
+                "assay_chembl_id": "CHEMBL4710579",
+                "molecule_pref_name": "DAROLUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CC(O)c1cc(C(=O)N[C@@H](C)Cn2ccc(-c3ccc(C#N)c(Cl)c3)n2)n[nH]1",
+                "standard_value": 4231.0,
+                "assay_chembl_id": "CHEMBL5340021",
+                "molecule_pref_name": "DAROLUTAMIDE"
+              },
+              {
+                "canonical_smiles": "CC(O)c1cc(C(=O)N[C@@H](C)Cn2ccc(-c3ccc(C#N)c(Cl)c3)n2)n[nH]1",
+                "standard_value": 14.0,
+                "assay_chembl_id": "CHEMBL5731830",
+                "molecule_pref_name": "DAROLUTAMIDE"
+              }
+            ]
+          },
+          "O=c1cc(C(F)(F)F)c2cc(N(CC(F)(F)F)CC(F)(F)F)ccc2[nH]1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=c1cc(C(F)(F)F)c2cc(N(CC(F)(F)F)CC(F)(F)F)ccc2[nH]1",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL5127804",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=c1cc(C(F)(F)F)c2cc(N(CC(F)(F)F)CC(F)(F)F)ccc2[nH]1",
+                "standard_value": 1.5,
+                "assay_chembl_id": "CHEMBL891115",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=c1cc(C(F)(F)F)c2cc(N(CC(F)(F)F)CC(F)(F)F)ccc2[nH]1",
+                "standard_value": 4.6,
+                "assay_chembl_id": "CHEMBL896869",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CC(=O)N1CCN(CCOc2ccc(C3CCN(C4=Nn5c(nnc5C(F)(F)F)CC4)CC3)cc2)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(=O)N1CCN(CCOc2ccc(C3CCN(C4=Nn5c(nnc5C(F)(F)F)CC4)CC3)cc2)CC1",
+                "standard_value": 5000.0,
+                "assay_chembl_id": "CHEMBL4668333",
+                "molecule_pref_name": "AZD3514"
+              },
+              {
+                "canonical_smiles": "CC(=O)N1CCN(CCOc2ccc(C3CCN(C4=Nn5c(nnc5C(F)(F)F)CC4)CC3)cc2)CC1",
+                "standard_value": 2200.0,
+                "assay_chembl_id": "CHEMBL4668334",
+                "molecule_pref_name": "AZD3514"
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 516,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "BCL2L1_BCL-XL_Ki_WT_ChEMBL_287_nodubl.csv",
+      "total_rows": 287,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 247,
+        "total_rows": 287,
+        "duplicate_smiles_count": 38,
+        "rows_with_duplicate_smiles": 78,
+        "duplicate_smiles": {
+          "COc1cc(CCCN2CCOCC2)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CCCN2CCOCC2)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 10.4,
+                "assay_chembl_id": "CHEMBL859053",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCCN2CCOCC2)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 580.0,
+                "assay_chembl_id": "CHEMBL859054",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCCN2CCOCC2)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 4300.0,
+                "assay_chembl_id": "CHEMBL859055",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc(CCCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CCCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 106.0,
+                "assay_chembl_id": "CHEMBL859053",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 730.0,
+                "assay_chembl_id": "CHEMBL859054",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 5660.0,
+                "assay_chembl_id": "CHEMBL859055",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc(CN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 426.0,
+                "assay_chembl_id": "CHEMBL859053",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 1000.0,
+                "assay_chembl_id": "CHEMBL859054",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2",
+                "standard_value": 2.22,
+                "assay_chembl_id": "CHEMBL3382381",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2",
+                "standard_value": 41.1,
+                "assay_chembl_id": "CHEMBL3382382",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 12.4,
+                "assay_chembl_id": "CHEMBL3382381",
+                "molecule_pref_name": "A-1107969"
+              },
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 320.0,
+                "assay_chembl_id": "CHEMBL3382382",
+                "molecule_pref_name": "A-1107969"
+              }
+            ]
+          },
+          "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2",
+                "standard_value": 0.34,
+                "assay_chembl_id": "CHEMBL3382381",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3cccc(-n4ncc5cncnc54)c3)s1)CC2",
+                "standard_value": 10.4,
+                "assay_chembl_id": "CHEMBL3382382",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 0.042,
+                "assay_chembl_id": "CHEMBL3382381",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 0.38,
+                "assay_chembl_id": "CHEMBL3382382",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc(CCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 665.0,
+                "assay_chembl_id": "CHEMBL859053",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCN(C)C)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 998.0,
+                "assay_chembl_id": "CHEMBL859054",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 5.0,
+                "assay_chembl_id": "CHEMBL3382381",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1nc2ccccc2s1)c1cccc2c1CN(c1nc(C(=O)O)c(CCCCOc3ccc(-n4ncc5cncnc54)cc3)s1)CC2",
+                "standard_value": 55.4,
+                "assay_chembl_id": "CHEMBL3382382",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc(CCCO)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CCCO)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 21.5,
+                "assay_chembl_id": "CHEMBL859053",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CCCO)ccc1-c1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1",
+                "standard_value": 2960.0,
+                "assay_chembl_id": "CHEMBL859054",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 287,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "BCL2_Ki_WT_ChEMBL_252_nodubl.csv",
+      "total_rows": 252,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 244,
+        "total_rows": 252,
+        "duplicate_smiles_count": 8,
+        "rows_with_duplicate_smiles": 16,
+        "duplicate_smiles": {
+          "O=C(Nc1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1)c1ccccc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1)c1ccccc1",
+                "standard_value": 1670.0,
+                "assay_chembl_id": "CHEMBL1943219",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1)c1ccccc1",
+                "standard_value": 1700.0,
+                "assay_chembl_id": "CHEMBL3859719",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCC(C)(C)CC3)cc2)cc1[N+](=O)[O-]": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCC(C)(C)CC3)cc2)cc1[N+](=O)[O-]",
+                "standard_value": 62.0,
+                "assay_chembl_id": "CHEMBL1274438",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCC(C)(C)CC3)cc2)cc1[N+](=O)[O-]",
+                "standard_value": 67.0,
+                "assay_chembl_id": "CHEMBL859052",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(O)c1oc2ccccc2c1CCCOc1cccc2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(O)c1oc2ccccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 4300.0,
+                "assay_chembl_id": "CHEMBL2320309",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(O)c1oc2ccccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 4600.0,
+                "assay_chembl_id": "CHEMBL5736072",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(O)c1sc2cc(Cl)ccc2c1CCCOc1cccc2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(O)c1sc2cc(Cl)ccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 960.0,
+                "assay_chembl_id": "CHEMBL2320309",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(O)c1sc2cc(Cl)ccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 1100.0,
+                "assay_chembl_id": "CHEMBL5736072",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(O)c1sc2ccccc2c1CCCOc1cccc2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(O)c1sc2ccccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 9700.0,
+                "assay_chembl_id": "CHEMBL2320309",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(O)c1sc2ccccc2c1CCCOc1cccc2ccccc12",
+                "standard_value": 5800.0,
+                "assay_chembl_id": "CHEMBL5736072",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1cc(OCCCc2c(C(=O)O)sc3cc(Cl)ccc23)cc(C)c1Cl": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3cc(Cl)ccc23)cc(C)c1Cl",
+                "standard_value": 800.0,
+                "assay_chembl_id": "CHEMBL2320309",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3cc(Cl)ccc23)cc(C)c1Cl",
+                "standard_value": 990.0,
+                "assay_chembl_id": "CHEMBL5736072",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl",
+                "standard_value": 5300.0,
+                "assay_chembl_id": "CHEMBL2320309",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl",
+                "standard_value": 1900.0,
+                "assay_chembl_id": "CHEMBL5736072",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CN(C)CC#Cc1ccc(OCCCc2sc(N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)nc2C(=O)O)c(F)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(C)CC#Cc1ccc(OCCCc2sc(N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)nc2C(=O)O)c(F)c1",
+                "standard_value": 80.0,
+                "assay_chembl_id": "CHEMBL3382383",
+                "molecule_pref_name": "A-1155463"
+              },
+              {
+                "canonical_smiles": "CN(C)CC#Cc1ccc(OCCCc2sc(N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)nc2C(=O)O)c(F)c1",
+                "standard_value": 74.0,
+                "assay_chembl_id": "CHEMBL3795379",
+                "molecule_pref_name": "A-1155463"
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 252,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "CRBN_Ki_WT_ChEMBL_127_nodubl.csv",
+      "total_rows": 127,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 113,
+        "total_rows": 127,
+        "duplicate_smiles_count": 7,
+        "rows_with_duplicate_smiles": 21,
+        "duplicate_smiles": {
+          "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+                "standard_value": 22700.0,
+                "assay_chembl_id": "CHEMBL3768102",
+                "molecule_pref_name": "THALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+                "standard_value": 8510.0,
+                "assay_chembl_id": "CHEMBL4679655",
+                "molecule_pref_name": "THALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+                "standard_value": 4400.0,
+                "assay_chembl_id": "CHEMBL5340015",
+                "molecule_pref_name": "THALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+                "standard_value": 8500.0,
+                "assay_chembl_id": "CHEMBL5355404",
+                "molecule_pref_name": "THALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+                "standard_value": 1800.0,
+                "assay_chembl_id": "CHEMBL5367924",
+                "molecule_pref_name": "THALIDOMIDE"
+              }
+            ]
+          },
+          "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 1490.0,
+                "assay_chembl_id": "CHEMBL4618786",
+                "molecule_pref_name": "LENALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 16300.0,
+                "assay_chembl_id": "CHEMBL4679656",
+                "molecule_pref_name": "LENALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 6400.0,
+                "assay_chembl_id": "CHEMBL5374908",
+                "molecule_pref_name": "LENALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 800.0,
+                "assay_chembl_id": "CHEMBL5579174",
+                "molecule_pref_name": "LENALIDOMIDE"
+              }
+            ]
+          },
+          "O=C1CCC(=O)N1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1CCC(=O)N1",
+                "standard_value": 26200.0,
+                "assay_chembl_id": "CHEMBL3768102",
+                "molecule_pref_name": "SUCCINIMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(=O)N1",
+                "standard_value": 8190.0,
+                "assay_chembl_id": "CHEMBL4679656",
+                "molecule_pref_name": "SUCCINIMIDE"
+              },
+              {
+                "canonical_smiles": "O=C1CCC(=O)N1",
+                "standard_value": 4300.0,
+                "assay_chembl_id": "CHEMBL5340015",
+                "molecule_pref_name": "SUCCINIMIDE"
+              }
+            ]
+          },
+          "Nc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 10000.0,
+                "assay_chembl_id": "CHEMBL4679656",
+                "molecule_pref_name": "POMALIDOMIDE"
+              },
+              {
+                "canonical_smiles": "Nc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O",
+                "standard_value": 3300.0,
+                "assay_chembl_id": "CHEMBL5374908",
+                "molecule_pref_name": "POMALIDOMIDE"
+              }
+            ]
+          },
+          "O=C1CCCC(=O)N1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1CCCC(=O)N1",
+                "standard_value": 28000.0,
+                "assay_chembl_id": "CHEMBL5340015",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C1CCCC(=O)N1",
+                "standard_value": 92500.0,
+                "assay_chembl_id": "CHEMBL5524487",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C1CCC(NC(=O)c2cc(F)c(F)c(F)c2F)C(=O)N1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1CCC(NC(=O)c2cc(F)c(F)c(F)c2F)C(=O)N1",
+                "standard_value": 30000.0,
+                "assay_chembl_id": "CHEMBL5374908",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C1CCC(NC(=O)c2cc(F)c(F)c(F)c2F)C(=O)N1",
+                "standard_value": 30400.0,
+                "assay_chembl_id": "CHEMBL5577336",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C1CCC(NC(=O)c2ccccc2)C(=O)N1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1CCC(NC(=O)c2ccccc2)C(=O)N1",
+                "standard_value": 63000.0,
+                "assay_chembl_id": "CHEMBL5374908",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C1CCC(NC(=O)c2ccccc2)C(=O)N1",
+                "standard_value": 62600.0,
+                "assay_chembl_id": "CHEMBL5577336",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 127,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "CYP19A1_Aromatase_Ki_WT_ChEMBL_548_nodubl.csv",
+      "total_rows": 548,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 488,
+        "total_rows": 548,
+        "duplicate_smiles_count": 40,
+        "rows_with_duplicate_smiles": 100,
+        "duplicate_smiles": {
+          "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 43.0,
+                "assay_chembl_id": "CHEMBL3755854",
+                "molecule_pref_name": "FORMESTANE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 0.16,
+                "assay_chembl_id": "CHEMBL5241252",
+                "molecule_pref_name": "FORMESTANE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 50.0,
+                "assay_chembl_id": "CHEMBL661762",
+                "molecule_pref_name": "FORMESTANE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 27.0,
+                "assay_chembl_id": "CHEMBL664581",
+                "molecule_pref_name": "FORMESTANE"
+              },
+              {
+                "canonical_smiles": "C[C@]12CCC(=O)C(O)=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 54.0,
+                "assay_chembl_id": "CHEMBL666399",
+                "molecule_pref_name": "FORMESTANE"
+              }
+            ]
+          },
+          "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O",
+                "standard_value": 4100.0,
+                "assay_chembl_id": "CHEMBL3755853",
+                "molecule_pref_name": "AMINOGLUTETHIMIDE"
+              },
+              {
+                "canonical_smiles": "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O",
+                "standard_value": 1800.0,
+                "assay_chembl_id": "CHEMBL660320",
+                "molecule_pref_name": "AMINOGLUTETHIMIDE"
+              },
+              {
+                "canonical_smiles": "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O",
+                "standard_value": 680.0,
+                "assay_chembl_id": "CHEMBL664409",
+                "molecule_pref_name": "AMINOGLUTETHIMIDE"
+              },
+              {
+                "canonical_smiles": "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O",
+                "standard_value": 470.0,
+                "assay_chembl_id": "CHEMBL664897",
+                "molecule_pref_name": "AMINOGLUTETHIMIDE"
+              },
+              {
+                "canonical_smiles": "CCC1(c2ccc(N)cc2)CCC(=O)NC1=O",
+                "standard_value": 600.0,
+                "assay_chembl_id": "CHEMBL666405",
+                "molecule_pref_name": "AMINOGLUTETHIMIDE"
+              }
+            ]
+          },
+          "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12": {
+            "count": 5,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 320.0,
+                "assay_chembl_id": "CHEMBL661762",
+                "molecule_pref_name": "ANDROSTENEDONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 260.0,
+                "assay_chembl_id": "CHEMBL662243",
+                "molecule_pref_name": "ANDROSTENEDONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 120.0,
+                "assay_chembl_id": "CHEMBL663782",
+                "molecule_pref_name": "ANDROSTENEDONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 952.0,
+                "assay_chembl_id": "CHEMBL664893",
+                "molecule_pref_name": "ANDROSTENEDONE"
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 43.0,
+                "assay_chembl_id": "CHEMBL666404",
+                "molecule_pref_name": "ANDROSTENEDONE"
+              }
+            ]
+          },
+          "N#Cc1ccc(C2CCCc3cncn32)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "N#Cc1ccc(C2CCCc3cncn32)cc1",
+                "standard_value": 0.05,
+                "assay_chembl_id": "CHEMBL1961308",
+                "molecule_pref_name": "FADROZOLE"
+              },
+              {
+                "canonical_smiles": "N#Cc1ccc(C2CCCc3cncn32)cc1",
+                "standard_value": 1.6,
+                "assay_chembl_id": "CHEMBL5110683",
+                "molecule_pref_name": "FADROZOLE"
+              },
+              {
+                "canonical_smiles": "N#Cc1ccc(C2CCCc3cncn32)cc1",
+                "standard_value": 0.6,
+                "assay_chembl_id": "CHEMBL649356",
+                "molecule_pref_name": "FADROZOLE"
+              },
+              {
+                "canonical_smiles": "N#Cc1ccc(C2CCCc3cncn32)cc1",
+                "standard_value": 1.5,
+                "assay_chembl_id": "CHEMBL661762",
+                "molecule_pref_name": "FADROZOLE"
+              }
+            ]
+          },
+          "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)OC[C@@H]12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)OC[C@@H]12",
+                "standard_value": 260.0,
+                "assay_chembl_id": "CHEMBL3756955",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)OC[C@@H]12",
+                "standard_value": 390.0,
+                "assay_chembl_id": "CHEMBL661762",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)OC[C@@H]12",
+                "standard_value": 410.0,
+                "assay_chembl_id": "CHEMBL663782",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12",
+                "standard_value": 26.0,
+                "assay_chembl_id": "CHEMBL3755854",
+                "molecule_pref_name": "EXEMESTANE"
+              },
+              {
+                "canonical_smiles": "C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12",
+                "standard_value": 10.2,
+                "assay_chembl_id": "CHEMBL3755855",
+                "molecule_pref_name": "EXEMESTANE"
+              },
+              {
+                "canonical_smiles": "C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12",
+                "standard_value": 0.95,
+                "assay_chembl_id": "CHEMBL5241252",
+                "molecule_pref_name": "EXEMESTANE"
+              }
+            ]
+          },
+          "C[C@H]1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)CCC(=O)C=C12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@H]1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)CCC(=O)C=C12",
+                "standard_value": 1.4,
+                "assay_chembl_id": "CHEMBL3756935",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@H]1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)CCC(=O)C=C12",
+                "standard_value": 25.0,
+                "assay_chembl_id": "CHEMBL4392021",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@H]1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)CCC(=O)C=C12",
+                "standard_value": 22.5,
+                "assay_chembl_id": "CHEMBL4392022",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "C[C@]12CC[C@H]3[C@@H](CCC4=CCCC[C@@]43CO)[C@@H]1CCC2=O": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CCCC[C@@]43CO)[C@@H]1CCC2=O",
+                "standard_value": 12.5,
+                "assay_chembl_id": "CHEMBL3756960",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CCCC[C@@]43CO)[C@@H]1CCC2=O",
+                "standard_value": 5.8,
+                "assay_chembl_id": "CHEMBL660323",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CCCC[C@@]43CO)[C@@H]1CCC2=O",
+                "standard_value": 13.0,
+                "assay_chembl_id": "CHEMBL664889",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "C#CC[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C#CC[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 15.2,
+                "assay_chembl_id": "CHEMBL660322",
+                "molecule_pref_name": "PLOMESTANE"
+              },
+              {
+                "canonical_smiles": "C#CC[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 4.0,
+                "assay_chembl_id": "CHEMBL664413",
+                "molecule_pref_name": "PLOMESTANE"
+              },
+              {
+                "canonical_smiles": "C#CC[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 6.2,
+                "assay_chembl_id": "CHEMBL763995",
+                "molecule_pref_name": "PLOMESTANE"
+              }
+            ]
+          },
+          "C[C@]12CCCC=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12CCCC=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 6.8,
+                "assay_chembl_id": "CHEMBL660323",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12CCCC=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 13.0,
+                "assay_chembl_id": "CHEMBL662245",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "C[C@]12CCCC=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+                "standard_value": 37.0,
+                "assay_chembl_id": "CHEMBL664889",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 548,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "CYP3A4_Ki_WT_ChEMBL_1_nodubl.csv",
+      "total_rows": 1,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 1,
+        "total_rows": 1,
+        "duplicate_smiles_count": 0,
+        "rows_with_duplicate_smiles": 0,
+        "duplicate_smiles": {}
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 1,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "EGFR_Ki_WT_curated_251_nodubl.csv",
+      "total_rows": 251,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 235,
+        "total_rows": 251,
+        "duplicate_smiles_count": 12,
+        "rows_with_duplicate_smiles": 28,
+        "duplicate_smiles": {
+          "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+                "standard_value": 0.4,
+                "assay_chembl_id": "CHEMBL1250019",
+                "molecule_pref_name": "GEFITINIB"
+              },
+              {
+                "canonical_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+                "standard_value": 16.4,
+                "assay_chembl_id": "CHEMBL5367549",
+                "molecule_pref_name": "GEFITINIB"
+              },
+              {
+                "canonical_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+                "standard_value": 2.1,
+                "assay_chembl_id": "CHEMBL5653673",
+                "molecule_pref_name": "GEFITINIB"
+              },
+              {
+                "canonical_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+                "standard_value": 15.0,
+                "assay_chembl_id": "CHEMBL5653674",
+                "molecule_pref_name": "GEFITINIB"
+              }
+            ]
+          },
+          "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL3375801",
+                "molecule_pref_name": "ERLOTINIB"
+              },
+              {
+                "canonical_smiles": "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+                "standard_value": 45.0,
+                "assay_chembl_id": "CHEMBL4021780",
+                "molecule_pref_name": "ERLOTINIB"
+              },
+              {
+                "canonical_smiles": "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+                "standard_value": 2.7,
+                "assay_chembl_id": "CHEMBL5661763",
+                "molecule_pref_name": "ERLOTINIB"
+              }
+            ]
+          },
+          "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C",
+                "standard_value": 3.5,
+                "assay_chembl_id": "CHEMBL3762136",
+                "molecule_pref_name": "OSIMERTINIB"
+              },
+              {
+                "canonical_smiles": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C",
+                "standard_value": 434.0,
+                "assay_chembl_id": "CHEMBL5120704",
+                "molecule_pref_name": "OSIMERTINIB"
+              },
+              {
+                "canonical_smiles": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C",
+                "standard_value": 14.4,
+                "assay_chembl_id": "CHEMBL5534729",
+                "molecule_pref_name": "OSIMERTINIB"
+              }
+            ]
+          },
+          "Cn1nccc1-c1nc(Nc2n[nH]c3ccccc23)c2c(n1)C(C)(C)OC2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cn1nccc1-c1nc(Nc2n[nH]c3ccccc23)c2c(n1)C(C)(C)OC2",
+                "standard_value": 1.1,
+                "assay_chembl_id": "CHEMBL3762136",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1nccc1-c1nc(Nc2n[nH]c3ccccc23)c2c(n1)C(C)(C)OC2",
+                "standard_value": 34.3,
+                "assay_chembl_id": "CHEMBL4322135",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Fc1ccc(-c2ncn(CCN3CCOCC3)c2-c2ccc3[nH]ncc3c2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Fc1ccc(-c2ncn(CCN3CCOCC3)c2-c2ccc3[nH]ncc3c2)cc1",
+                "standard_value": 17.0,
+                "assay_chembl_id": "CHEMBL1685430",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Fc1ccc(-c2ncn(CCN3CCOCC3)c2-c2ccc3[nH]ncc3c2)cc1",
+                "standard_value": 39.81,
+                "assay_chembl_id": "CHEMBL1963766",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1ccc(CNc2ccnc3oc4ccccc4c23)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1ccc(CNc2ccnc3oc4ccccc4c23)cc1",
+                "standard_value": 400.0,
+                "assay_chembl_id": "CHEMBL1292125",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1ccc(CNc2ccnc3oc4ccccc4c23)cc1",
+                "standard_value": 1430.0,
+                "assay_chembl_id": "CHEMBL4190463",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1c([Se][Se]c2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1c([Se][Se]c2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12",
+                "standard_value": 3100.0,
+                "assay_chembl_id": "CHEMBL674574",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1c([Se][Se]c2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12",
+                "standard_value": 3900.0,
+                "assay_chembl_id": "CHEMBL674575",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1c(SSc2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1c(SSc2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12",
+                "standard_value": 2300.0,
+                "assay_chembl_id": "CHEMBL674574",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1c(SSc2c(C(=O)NC)c3ccccc3n2C)n(C)c2ccccc12",
+                "standard_value": 3900.0,
+                "assay_chembl_id": "CHEMBL674575",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1nc2cnc(Nc3ccnc(N4CC[C@H](O)[C@H](F)C4)n3)cc2n1C(C)C": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1nc2cnc(Nc3ccnc(N4CC[C@H](O)[C@H](F)C4)n3)cc2n1C(C)C",
+                "standard_value": 910.0,
+                "assay_chembl_id": "CHEMBL3737948",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1nc2cnc(Nc3ccnc(N4CC[C@H](O)[C@H](F)C4)n3)cc2n1C(C)C",
+                "standard_value": 905.0,
+                "assay_chembl_id": "CHEMBL5253716",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NC(Cc1c(SSc2[nH]c3ccccc3c2CC(N)C(=O)NCc2ccccc2)[nH]c2ccccc12)C(=O)NCc1ccccc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(Cc1c(SSc2[nH]c3ccccc3c2CC(N)C(=O)NCc2ccccc2)[nH]c2ccccc12)C(=O)NCc1ccccc1",
+                "standard_value": 19400.0,
+                "assay_chembl_id": "CHEMBL674574",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NC(Cc1c(SSc2[nH]c3ccccc3c2CC(N)C(=O)NCc2ccccc2)[nH]c2ccccc12)C(=O)NCc1ccccc1",
+                "standard_value": 21200.0,
+                "assay_chembl_id": "CHEMBL674575",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 251,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "Estrogen_receptor_alpha_Ki_WT_ChEMBL_494_nodubl.csv",
+      "total_rows": 494,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 419,
+        "total_rows": 494,
+        "duplicate_smiles_count": 36,
+        "rows_with_duplicate_smiles": 111,
+        "duplicate_smiles": {
+          "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+                "standard_value": 1.1,
+                "assay_chembl_id": "CHEMBL5045826",
+                "molecule_pref_name": "ESTRADIOL"
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+                "standard_value": 100.0,
+                "assay_chembl_id": "CHEMBL677875",
+                "molecule_pref_name": "ESTRADIOL"
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+                "standard_value": 2.2,
+                "assay_chembl_id": "CHEMBL682296",
+                "molecule_pref_name": "ESTRADIOL"
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+                "standard_value": 1.995,
+                "assay_chembl_id": "CHEMBL840199",
+                "molecule_pref_name": "ESTRADIOL"
+              },
+              {
+                "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+                "standard_value": 12.0,
+                "assay_chembl_id": "CHEMBL887185",
+                "molecule_pref_name": "ESTRADIOL"
+              }
+            ]
+          },
+          "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12": {
+            "count": 6,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+                "standard_value": 0.37,
+                "assay_chembl_id": "CHEMBL2051158",
+                "molecule_pref_name": "RALOXIFENE"
+              },
+              {
+                "canonical_smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+                "standard_value": 0.38,
+                "assay_chembl_id": "CHEMBL2051166",
+                "molecule_pref_name": "RALOXIFENE"
+              },
+              {
+                "canonical_smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+                "standard_value": 0.43,
+                "assay_chembl_id": "CHEMBL3755031",
+                "molecule_pref_name": "RALOXIFENE"
+              },
+              {
+                "canonical_smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+                "standard_value": 0.22,
+                "assay_chembl_id": "CHEMBL682296",
+                "molecule_pref_name": "RALOXIFENE"
+              },
+              {
+                "canonical_smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+                "standard_value": 0.4,
+                "assay_chembl_id": "CHEMBL682298",
+                "molecule_pref_name": "RALOXIFENE"
+              }
+            ]
+          },
+          "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1": {
+            "count": 5,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+                "standard_value": 0.39,
+                "assay_chembl_id": "CHEMBL2051158",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+                "standard_value": 0.25,
+                "assay_chembl_id": "CHEMBL681151",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+                "standard_value": 0.5,
+                "assay_chembl_id": "CHEMBL682298",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+                "standard_value": 2.512,
+                "assay_chembl_id": "CHEMBL840199",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCC(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+                "standard_value": 5.7,
+                "assay_chembl_id": "CHEMBL881339",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 5,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.64,
+                "assay_chembl_id": "CHEMBL5350430",
+                "molecule_pref_name": "IMLUNESTRANT"
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 12.4,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": "IMLUNESTRANT"
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 57.2,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": "IMLUNESTRANT"
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.31,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": "IMLUNESTRANT"
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(C(F)(F)F)cc1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 2.79,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": "IMLUNESTRANT"
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1ccc(F)cc1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(F)cc1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 1.3,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(F)cc1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 6.56,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(F)cc1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 12.5,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1ccc(F)cc1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 81.2,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.65,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 7.92,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 60.4,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 294.0,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 60.4,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 294.0,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.65,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(C(F)(F)F)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 7.92,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 16.8,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 55.0,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.34,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 2.34,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 0.34,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 2.34,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 16.8,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(Cl)c1O[C@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 55.0,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Oc1ccc2c3c(cnc2c1)-c1cccc(F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 8.53,
+                "assay_chembl_id": "CHEMBL5735206",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 46.0,
+                "assay_chembl_id": "CHEMBL5735207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 1.13,
+                "assay_chembl_id": "CHEMBL5737372",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Oc1ccc2c3c(cnc2c1)-c1cccc(F)c1O[C@@H]3c1ccc(OCCN2CC(CF)C2)cc1",
+                "standard_value": 5.71,
+                "assay_chembl_id": "CHEMBL5737373",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 494,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "FGFR1_Ki_WT_ChEMBL_134_nodubl.csv",
+      "total_rows": 134,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 133,
+        "total_rows": 134,
+        "duplicate_smiles_count": 1,
+        "rows_with_duplicate_smiles": 2,
+        "duplicate_smiles": {
+          "CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1",
+                "standard_value": 45.2,
+                "assay_chembl_id": "CHEMBL5649143",
+                "molecule_pref_name": "PD-173074"
+              },
+              {
+                "canonical_smiles": "CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1",
+                "standard_value": 36.4,
+                "assay_chembl_id": "CHEMBL5649144",
+                "molecule_pref_name": "PD-173074"
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 134,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "HTR2B_5HT2B_IC50_WT_ChEMBL_61_nodubl.csv",
+      "total_rows": 61,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 55,
+        "total_rows": 61,
+        "duplicate_smiles_count": 4,
+        "rows_with_duplicate_smiles": 10,
+        "duplicate_smiles": {
+          "COc1cc(CC(C)N)c(OC)cc1I": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(CC(C)N)c(OC)cc1I",
+                "standard_value": 3.2,
+                "assay_chembl_id": "CHEMBL2394825",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CC(C)N)c(OC)cc1I",
+                "standard_value": 4.0,
+                "assay_chembl_id": "CHEMBL2394927",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CC(C)N)c(OC)cc1I",
+                "standard_value": 5.8,
+                "assay_chembl_id": "CHEMBL5721242",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(CC(C)N)c(OC)cc1I",
+                "standard_value": 1.5,
+                "assay_chembl_id": "CHEMBL5721275",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CN(C)c1nc(N[C@H]2CC[C@@H](NC(=O)c3ccc(F)c(F)c3)CC2)nc2ccccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(C)c1nc(N[C@H]2CC[C@@H](NC(=O)c3ccc(F)c(F)c3)CC2)nc2ccccc12",
+                "standard_value": 150.0,
+                "assay_chembl_id": "CHEMBL1037058",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(C)c1nc(N[C@H]2CC[C@@H](NC(=O)c3ccc(F)c(F)c3)CC2)nc2ccccc12",
+                "standard_value": 9.66,
+                "assay_chembl_id": "CHEMBL1037059",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "C[C@@H]1CN(c2cc(-c3n[nH]c4ccc(OC5(C)CC5)cc34)ncn2)C[C@H](C)O1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@@H]1CN(c2cc(-c3n[nH]c4ccc(OC5(C)CC5)cc34)ncn2)C[C@H](C)O1",
+                "standard_value": 1170.0,
+                "assay_chembl_id": "CHEMBL4880837",
+                "molecule_pref_name": "MLi-2"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CN(c2cc(-c3n[nH]c4ccc(OC5(C)CC5)cc34)ncn2)C[C@H](C)O1",
+                "standard_value": 1200.0,
+                "assay_chembl_id": "CHEMBL5213477",
+                "molecule_pref_name": "MLi-2"
+              }
+            ]
+          },
+          "O=c1ccc(-c2ccc(OCc3ccc4ccccc4n3)cc2)c(-c2ccc(F)cc2)[nH]1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=c1ccc(-c2ccc(OCc3ccc4ccccc4n3)cc2)c(-c2ccc(F)cc2)[nH]1",
+                "standard_value": 6.7,
+                "assay_chembl_id": "CHEMBL3637049",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=c1ccc(-c2ccc(OCc3ccc4ccccc4n3)cc2)c(-c2ccc(F)cc2)[nH]1",
+                "standard_value": 220.0,
+                "assay_chembl_id": "CHEMBL3637052",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 61,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "JAK1_Ki_WT_ChEMBL_2255_nodubl.csv",
+      "total_rows": 2255,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 2234,
+        "total_rows": 2255,
+        "duplicate_smiles_count": 19,
+        "rows_with_duplicate_smiles": 40,
+        "duplicate_smiles": {
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL5734864",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.079,
+                "assay_chembl_id": "CHEMBL5736542",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.06,
+                "assay_chembl_id": "CHEMBL5736589",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.06,
+                "assay_chembl_id": "CHEMBL5732458",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.063,
+                "assay_chembl_id": "CHEMBL5736542",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.08,
+                "assay_chembl_id": "CHEMBL5736589",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N(C)C)C1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N(C)C)C1",
+                "standard_value": 0.06,
+                "assay_chembl_id": "CHEMBL5732458",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N(C)C)C1",
+                "standard_value": 0.079,
+                "assay_chembl_id": "CHEMBL5736542",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.05,
+                "assay_chembl_id": "CHEMBL5732458",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.08,
+                "assay_chembl_id": "CHEMBL5736589",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL2160360",
+                "molecule_pref_name": "RUXOLITINIB"
+              },
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 0.09,
+                "assay_chembl_id": "CHEMBL2186173",
+                "molecule_pref_name": "RUXOLITINIB"
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1",
+                "standard_value": 0.08,
+                "assay_chembl_id": "CHEMBL5732458",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1",
+                "standard_value": 0.06,
+                "assay_chembl_id": "CHEMBL5736589",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl",
+                "standard_value": 83.8,
+                "assay_chembl_id": "CHEMBL2389429",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl",
+                "standard_value": 84.0,
+                "assay_chembl_id": "CHEMBL2421804",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.68,
+                "assay_chembl_id": "CHEMBL2155756",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.7,
+                "assay_chembl_id": "CHEMBL2155758",
+                "molecule_pref_name": "TOFACITINIB"
+              }
+            ]
+          },
+          "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL5506091",
+                "molecule_pref_name": "IZENCITINIB"
+              },
+              {
+                "canonical_smiles": "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1",
+                "standard_value": 0.55,
+                "assay_chembl_id": "CHEMBL5736566",
+                "molecule_pref_name": "IZENCITINIB"
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.04,
+                "assay_chembl_id": "CHEMBL5732458",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.06,
+                "assay_chembl_id": "CHEMBL5734864",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 2255,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "JAK2_Ki_WT_ChEMBL_2027_nodubl.csv",
+      "total_rows": 2027,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 2014,
+        "total_rows": 2027,
+        "duplicate_smiles_count": 12,
+        "rows_with_duplicate_smiles": 25,
+        "duplicate_smiles": {
+          "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.99,
+                "assay_chembl_id": "CHEMBL2155755",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.7,
+                "assay_chembl_id": "CHEMBL2155759",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL5150282",
+                "molecule_pref_name": "TOFACITINIB"
+              }
+            ]
+          },
+          "CN(CCc1ccccc1)Cc1nc(-c2cc(Cl)ccc2OC(F)F)c(NC(=O)c2cnn3cccnc23)s1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(CCc1ccccc1)Cc1nc(-c2cc(Cl)ccc2OC(F)F)c(NC(=O)c2cnn3cccnc23)s1",
+                "standard_value": 10.24,
+                "assay_chembl_id": "CHEMBL3888506",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(CCc1ccccc1)Cc1nc(-c2cc(Cl)ccc2OC(F)F)c(NC(=O)c2cnn3cccnc23)s1",
+                "standard_value": 10.2,
+                "assay_chembl_id": "CHEMBL5731935",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Nc1ccn2ncc(C(=O)Nc3conc3-c3cccc(Cl)c3)c2n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1ccn2ncc(C(=O)Nc3conc3-c3cccc(Cl)c3)c2n1",
+                "standard_value": 1.8,
+                "assay_chembl_id": "CHEMBL2186596",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Nc1ccn2ncc(C(=O)Nc3conc3-c3cccc(Cl)c3)c2n1",
+                "standard_value": 2.0,
+                "assay_chembl_id": "CHEMBL3706323",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.02,
+                "assay_chembl_id": "CHEMBL5732459",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.016,
+                "assay_chembl_id": "CHEMBL5736121",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc(Cl)ccc2Cl)n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc(Cl)ccc2Cl)n1",
+                "standard_value": 0.4,
+                "assay_chembl_id": "CHEMBL2186596",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc(Cl)ccc2Cl)n1",
+                "standard_value": 13.7,
+                "assay_chembl_id": "CHEMBL3707882",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL5506092",
+                "molecule_pref_name": "IZENCITINIB"
+              },
+              {
+                "canonical_smiles": "Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1",
+                "standard_value": 0.55,
+                "assay_chembl_id": "CHEMBL5736567",
+                "molecule_pref_name": "IZENCITINIB"
+              }
+            ]
+          },
+          "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL2160361",
+                "molecule_pref_name": "RUXOLITINIB"
+              },
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 0.24,
+                "assay_chembl_id": "CHEMBL2186596",
+                "molecule_pref_name": "RUXOLITINIB"
+              }
+            ]
+          },
+          "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl",
+                "standard_value": 27.6,
+                "assay_chembl_id": "CHEMBL2389428",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl",
+                "standard_value": 28.0,
+                "assay_chembl_id": "CHEMBL2421805",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(C)(N(C)C)C1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(C)(N(C)C)C1",
+                "standard_value": 0.03,
+                "assay_chembl_id": "CHEMBL5732459",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(C)(N(C)C)C1",
+                "standard_value": 0.02,
+                "assay_chembl_id": "CHEMBL5736543",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1C[C@@H]2C[C@H]1CN2C": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1C[C@@H]2C[C@H]1CN2C",
+                "standard_value": 0.02,
+                "assay_chembl_id": "CHEMBL5732859",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1C[C@@H]2C[C@H]1CN2C",
+                "standard_value": 0.016,
+                "assay_chembl_id": "CHEMBL5736056",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 2027,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "JAK3_Ki_WT_ChEMBL_786_nodubl.csv",
+      "total_rows": 786,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 758,
+        "total_rows": 786,
+        "duplicate_smiles_count": 23,
+        "rows_with_duplicate_smiles": 51,
+        "duplicate_smiles": {
+          "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL1250000",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.24,
+                "assay_chembl_id": "CHEMBL2155754",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.4,
+                "assay_chembl_id": "CHEMBL2155760",
+                "molecule_pref_name": "TOFACITINIB"
+              },
+              {
+                "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL5150283",
+                "molecule_pref_name": "TOFACITINIB"
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.32,
+                "assay_chembl_id": "CHEMBL5732460",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.316,
+                "assay_chembl_id": "CHEMBL5736544",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.28,
+                "assay_chembl_id": "CHEMBL5736591",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.32,
+                "assay_chembl_id": "CHEMBL5734866",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.316,
+                "assay_chembl_id": "CHEMBL5736544",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.25,
+                "assay_chembl_id": "CHEMBL5736591",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.1,
+                "assay_chembl_id": "CHEMBL5732460",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL5734866",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.079,
+                "assay_chembl_id": "CHEMBL5736122",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 3.2,
+                "assay_chembl_id": "CHEMBL2160362",
+                "molecule_pref_name": "RUXOLITINIB"
+              },
+              {
+                "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+                "standard_value": 3.22,
+                "assay_chembl_id": "CHEMBL2186172",
+                "molecule_pref_name": "RUXOLITINIB"
+              }
+            ]
+          },
+          "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CCC[C@@H](C2)N3S(=O)(=O)N2CC(C#N)C2)n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CCC[C@@H](C2)N3S(=O)(=O)N2CC(C#N)C2)n1",
+                "standard_value": 0.55,
+                "assay_chembl_id": "CHEMBL5731237",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CCC[C@@H](C2)N3S(=O)(=O)N2CC(C#N)C2)n1",
+                "standard_value": 5.5,
+                "assay_chembl_id": "CHEMBL5734579",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CC[C@@H](C2)N3CCC#N)n1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CC[C@@H](C2)N3CCC#N)n1",
+                "standard_value": 66.0,
+                "assay_chembl_id": "CHEMBL5731237",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc(Nc2cc(CO)[nH]n2)nc(N(C)[C@@H]2C[C@H]3CC[C@@H](C2)N3CCC#N)n1",
+                "standard_value": 21.0,
+                "assay_chembl_id": "CHEMBL5737311",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL5732460",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1",
+                "standard_value": 0.13,
+                "assay_chembl_id": "CHEMBL5736591",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.2,
+                "assay_chembl_id": "CHEMBL5732460",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1",
+                "standard_value": 0.32,
+                "assay_chembl_id": "CHEMBL5736591",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(CCO)C[C@H]3C)C4)n[nH]c2c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(CCO)C[C@H]3C)C4)n[nH]c2c1",
+                "standard_value": 0.25,
+                "assay_chembl_id": "CHEMBL5732860",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(CCO)C[C@H]3C)C4)n[nH]c2c1",
+                "standard_value": 0.126,
+                "assay_chembl_id": "CHEMBL5736057",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 786,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "KIT_Ki_WT_curated_1298_nodubl.csv",
+      "total_rows": 1298,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 1089,
+        "total_rows": 1298,
+        "duplicate_smiles_count": 209,
+        "rows_with_duplicate_smiles": 418,
+        "duplicate_smiles": {
+          "Cc1nc(C2CCN(c3ncnc4[nH]c(-c5ccc(F)cc5)cc34)CC2)[nH]c1-c1ccc(Cl)s1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1nc(C2CCN(c3ncnc4[nH]c(-c5ccc(F)cc5)cc34)CC2)[nH]c1-c1ccc(Cl)s1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5732667",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1nc(C2CCN(c3ncnc4[nH]c(-c5ccc(F)cc5)cc34)CC2)[nH]c1-c1ccc(Cl)s1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5732668",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1cccc(-c2cc3c(N4CCC(c5nc(C)c(-c6ccccc6)[nH]5)CC4)ncnc3[nH]2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1cccc(-c2cc3c(N4CCC(c5nc(C)c(-c6ccccc6)[nH]5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5732667",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1cccc(-c2cc3c(N4CCC(c5nc(C)c(-c6ccccc6)[nH]5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5732668",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1cccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1cccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1cccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1cc2ncnc(-c3ccc(NS(C)(=O)=O)cc3F)c2cc1OC": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1cc2ncnc(-c3ccc(NS(C)(=O)=O)cc3F)c2cc1OC",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1cc2ncnc(-c3ccc(NS(C)(=O)=O)cc3F)c2cc1OC",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)cc1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)cc1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)cc1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NS(=O)(=O)c1ccc(-c2cc3c(N4CCN(C(=O)NCc5ccc(F)cc5)CC4)ncnc3[nH]2)cc1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1ccc(S(=O)(=O)Nc2ccc(-c3ncnc4cc(OC)c(OCCCN5CCOCC5)cc34)c(F)c2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1ccc(S(=O)(=O)Nc2ccc(-c3ncnc4cc(OC)c(OCCCN5CCOCC5)cc34)c(F)c2)cc1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "COc1ccc(S(=O)(=O)Nc2ccc(-c3ncnc4cc(OC)c(OCCCN5CCOCC5)cc34)c(F)c2)cc1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CS(=O)(=O)Nc1cccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CS(=O)(=O)Nc1cccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CS(=O)(=O)Nc1cccc(-c2cc3c(N4CCN(C(=O)Nc5ccc(OC(F)(F)F)cc5)CC4)ncnc3[nH]2)c1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1",
+                "standard_value": 5500.0,
+                "assay_chembl_id": "CHEMBL5733244",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CNS(=O)(=O)c1ccc(-c2ncnc3[nH]c(-c4ccc(F)cc4)cc23)cc1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5733245",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 1298,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "MAO-B_Ki_WT_ChEMBL_246_nodubl.csv",
+      "total_rows": 246,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 213,
+        "total_rows": 246,
+        "duplicate_smiles_count": 26,
+        "rows_with_duplicate_smiles": 59,
+        "duplicate_smiles": {
+          "C#CCN(C)[C@H](C)Cc1ccccc1": {
+            "count": 5,
+            "example_rows": [
+              {
+                "canonical_smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+                "standard_value": 1960.0,
+                "assay_chembl_id": "CHEMBL1764623",
+                "molecule_pref_name": "SELEGILINE"
+              },
+              {
+                "canonical_smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+                "standard_value": 380.0,
+                "assay_chembl_id": "CHEMBL3784058",
+                "molecule_pref_name": "SELEGILINE"
+              },
+              {
+                "canonical_smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+                "standard_value": 9.0,
+                "assay_chembl_id": "CHEMBL3862220",
+                "molecule_pref_name": "SELEGILINE"
+              },
+              {
+                "canonical_smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+                "standard_value": 255.0,
+                "assay_chembl_id": "CHEMBL4259682",
+                "molecule_pref_name": "SELEGILINE"
+              },
+              {
+                "canonical_smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+                "standard_value": 970.0,
+                "assay_chembl_id": "CHEMBL828820",
+                "molecule_pref_name": "SELEGILINE"
+              }
+            ]
+          },
+          "Cn1c(=O)c2c(nc(/C=C/c3cccc(Cl)c3)n2C)n(C)c1=O": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cn1c(=O)c2c(nc(/C=C/c3cccc(Cl)c3)n2C)n(C)c1=O",
+                "standard_value": 80.6,
+                "assay_chembl_id": "CHEMBL3096092",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1c(=O)c2c(nc(/C=C/c3cccc(Cl)c3)n2C)n(C)c1=O",
+                "standard_value": 100.0,
+                "assay_chembl_id": "CHEMBL4480502",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1c(=O)c2c(nc(/C=C/c3cccc(Cl)c3)n2C)n(C)c1=O",
+                "standard_value": 70.0,
+                "assay_chembl_id": "CHEMBL945895",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C1OCc2ccc(OCc3ccc(C(F)(F)F)cc3)cc21": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1OCc2ccc(OCc3ccc(C(F)(F)F)cc3)cc21",
+                "standard_value": 0.46,
+                "assay_chembl_id": "CHEMBL2394149",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C1OCc2ccc(OCc3ccc(C(F)(F)F)cc3)cc21",
+                "standard_value": 0.6,
+                "assay_chembl_id": "CHEMBL2394150",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C1OCc2ccc(OCc3ccc(C(F)(F)F)cc3)cc21",
+                "standard_value": 0.7,
+                "assay_chembl_id": "CHEMBL2394301",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(NCCN1CCOCC1)c1ccc(Cl)cc1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(NCCN1CCOCC1)c1ccc(Cl)cc1",
+                "standard_value": 2240.0,
+                "assay_chembl_id": "CHEMBL3784058",
+                "molecule_pref_name": "MOCLOBEMIDE"
+              },
+              {
+                "canonical_smiles": "O=C(NCCN1CCOCC1)c1ccc(Cl)cc1",
+                "standard_value": 4220.0,
+                "assay_chembl_id": "CHEMBL4259682",
+                "molecule_pref_name": "MOCLOBEMIDE"
+              },
+              {
+                "canonical_smiles": "O=C(NCCN1CCOCC1)c1ccc(Cl)cc1",
+                "standard_value": 100000.0,
+                "assay_chembl_id": "CHEMBL828820",
+                "molecule_pref_name": "MOCLOBEMIDE"
+              }
+            ]
+          },
+          "O=C1Nc2ccccc2C1=O": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C1Nc2ccccc2C1=O",
+                "standard_value": 33.0,
+                "assay_chembl_id": "CHEMBL1817454",
+                "molecule_pref_name": "ISATIN"
+              },
+              {
+                "canonical_smiles": "O=C1Nc2ccccc2C1=O",
+                "standard_value": 5200.0,
+                "assay_chembl_id": "CHEMBL3862220",
+                "molecule_pref_name": "ISATIN"
+              },
+              {
+                "canonical_smiles": "O=C1Nc2ccccc2C1=O",
+                "standard_value": 3000.0,
+                "assay_chembl_id": "CHEMBL884737",
+                "molecule_pref_name": "ISATIN"
+              }
+            ]
+          },
+          "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccccc3)cc2)o1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccccc3)cc2)o1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5730935",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccccc3)cc2)o1",
+                "standard_value": 550.0,
+                "assay_chembl_id": "CHEMBL5733261",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(F)c3)cc2)o1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(F)c3)cc2)o1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5730935",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(F)c3)cc2)o1",
+                "standard_value": 550.0,
+                "assay_chembl_id": "CHEMBL5733261",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CC(=O)NC1CCC(N[C@H]2C[C@@H]2c2ccc(-c3cccc(C(F)(F)F)c3)nc2)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(=O)NC1CCC(N[C@H]2C[C@@H]2c2ccc(-c3cccc(C(F)(F)F)c3)nc2)CC1",
+                "standard_value": 20000.0,
+                "assay_chembl_id": "CHEMBL3887028",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CC(=O)NC1CCC(N[C@H]2C[C@@H]2c2ccc(-c3cccc(C(F)(F)F)c3)nc2)CC1",
+                "standard_value": 20500.0,
+                "assay_chembl_id": "CHEMBL5730713",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(Cl)c3)cc2)o1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(Cl)c3)cc2)o1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5730935",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3cccc(Cl)c3)cc2)o1",
+                "standard_value": 550.0,
+                "assay_chembl_id": "CHEMBL5733261",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccc(F)cc3)cc2)o1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccc(F)cc3)cc2)o1",
+                "standard_value": 500.0,
+                "assay_chembl_id": "CHEMBL5730935",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Nc1nnc(CN[C@H]2C[C@@H]2c2ccc(OCc3ccc(F)cc3)cc2)o1",
+                "standard_value": 550.0,
+                "assay_chembl_id": "CHEMBL5733261",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 246,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "PARP1_Ki_WT_ChEMBL_1075_nodubl.csv",
+      "total_rows": 1075,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 1049,
+        "total_rows": 1075,
+        "duplicate_smiles_count": 25,
+        "rows_with_duplicate_smiles": 51,
+        "duplicate_smiles": {
+          "C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1",
+                "standard_value": 5.0,
+                "assay_chembl_id": "CHEMBL1010815",
+                "molecule_pref_name": "VELIPARIB"
+              },
+              {
+                "canonical_smiles": "C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1",
+                "standard_value": 3.3,
+                "assay_chembl_id": "CHEMBL5127793",
+                "molecule_pref_name": "VELIPARIB"
+              },
+              {
+                "canonical_smiles": "C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1",
+                "standard_value": 5.2,
+                "assay_chembl_id": "CHEMBL5227210",
+                "molecule_pref_name": "VELIPARIB"
+              }
+            ]
+          },
+          "O=c1[nH]nc(Cc2ccc(F)cc2)c2c1CCCN2": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=c1[nH]nc(Cc2ccc(F)cc2)c2c1CCCN2",
+                "standard_value": 118.0,
+                "assay_chembl_id": "CHEMBL2061718",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=c1[nH]nc(Cc2ccc(F)cc2)c2c1CCCN2",
+                "standard_value": 119.0,
+                "assay_chembl_id": "CHEMBL3888158",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1",
+                "standard_value": 1.4,
+                "assay_chembl_id": "CHEMBL3110590",
+                "molecule_pref_name": "RUCAPARIB"
+              },
+              {
+                "canonical_smiles": "CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1",
+                "standard_value": 2.9,
+                "assay_chembl_id": "CHEMBL5227210",
+                "molecule_pref_name": "RUCAPARIB"
+              }
+            ]
+          },
+          "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccncc4)cc3)nc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccncc4)cc3)nc12",
+                "standard_value": 3.1,
+                "assay_chembl_id": "CHEMBL1042276",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccncc4)cc3)nc12",
+                "standard_value": 2.0,
+                "assay_chembl_id": "CHEMBL1106194",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NC(=O)c1cccc2[nH]c(-c3ccc(-c4cccnc4)cc3)nc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4cccnc4)cc3)nc12",
+                "standard_value": 0.95,
+                "assay_chembl_id": "CHEMBL1042276",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4cccnc4)cc3)nc12",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL1106194",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccccn4)cc3)nc12": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccccn4)cc3)nc12",
+                "standard_value": 1.9,
+                "assay_chembl_id": "CHEMBL1042276",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NC(=O)c1cccc2[nH]c(-c3ccc(-c4ccccn4)cc3)nc12",
+                "standard_value": 2.0,
+                "assay_chembl_id": "CHEMBL1106194",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CN(C)C(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4c3NCCC4)ccc2F)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(C)C(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4c3NCCC4)ccc2F)CC1",
+                "standard_value": 1.2,
+                "assay_chembl_id": "CHEMBL2061718",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN(C)C(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4c3NCCC4)ccc2F)CC1",
+                "standard_value": 1.3,
+                "assay_chembl_id": "CHEMBL3888158",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "NC(=O)c1cccc(N)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(=O)c1cccc(N)c1",
+                "standard_value": 5000.0,
+                "assay_chembl_id": "CHEMBL4481004",
+                "molecule_pref_name": "3-AMINOBENZAMIDE"
+              },
+              {
+                "canonical_smiles": "NC(=O)c1cccc(N)c1",
+                "standard_value": 3100.0,
+                "assay_chembl_id": "CHEMBL763796",
+                "molecule_pref_name": "3-AMINOBENZAMIDE"
+              }
+            ]
+          },
+          "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2ccccn2)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2ccccn2)CC1",
+                "standard_value": 0.9,
+                "assay_chembl_id": "CHEMBL2061718",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2ccccn2)CC1",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL3888158",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2cccnc2)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2cccnc2)CC1",
+                "standard_value": 0.9,
+                "assay_chembl_id": "CHEMBL2061718",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3c2NCCC3)ccc1F)N1CCN(c2cccnc2)CC1",
+                "standard_value": 1.0,
+                "assay_chembl_id": "CHEMBL3888158",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 1075,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "PDGFRA_Ki_WT_curated_250_nodubl.csv",
+      "total_rows": 250,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 250,
+        "total_rows": 250,
+        "duplicate_smiles_count": 0,
+        "rows_with_duplicate_smiles": 0,
+        "duplicate_smiles": {}
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 250,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "PDGFRB_Ki_WT_ChEMBL_275_nodubl.csv",
+      "total_rows": 275,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 275,
+        "total_rows": 275,
+        "duplicate_smiles_count": 0,
+        "rows_with_duplicate_smiles": 0,
+        "duplicate_smiles": {}
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 275,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "PSMB5_Ki_WT_ChEMBL_88_nodubl.csv",
+      "total_rows": 88,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 83,
+        "total_rows": 88,
+        "duplicate_smiles_count": 3,
+        "rows_with_duplicate_smiles": 8,
+        "duplicate_smiles": {
+          "CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O",
+                "standard_value": 0.6,
+                "assay_chembl_id": "CHEMBL2388793",
+                "molecule_pref_name": "BORTEZOMIB"
+              },
+              {
+                "canonical_smiles": "CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O",
+                "standard_value": 0.55,
+                "assay_chembl_id": "CHEMBL3226237",
+                "molecule_pref_name": "BORTEZOMIB"
+              },
+              {
+                "canonical_smiles": "CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O",
+                "standard_value": 9.8,
+                "assay_chembl_id": "CHEMBL3239238",
+                "molecule_pref_name": "BORTEZOMIB"
+              }
+            ]
+          },
+          "CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCc1ccccc1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCc1ccccc1",
+                "standard_value": 1.4,
+                "assay_chembl_id": "CHEMBL3860288",
+                "molecule_pref_name": "MG-132"
+              },
+              {
+                "canonical_smiles": "CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCc1ccccc1",
+                "standard_value": 70.0,
+                "assay_chembl_id": "CHEMBL4185009",
+                "molecule_pref_name": "MG-132"
+              },
+              {
+                "canonical_smiles": "CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCc1ccccc1",
+                "standard_value": 3.7,
+                "assay_chembl_id": "CHEMBL861973",
+                "molecule_pref_name": "MG-132"
+              }
+            ]
+          },
+          "CCCCCCCCCC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@H]1/C=C/CCNC(=O)/C=C/[C@H](C(C)C)NC1=O": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCCCCCCCC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@H]1/C=C/CCNC(=O)/C=C/[C@H](C(C)C)NC1=O",
+                "standard_value": 0.14,
+                "assay_chembl_id": "CHEMBL3631541",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCCCCCCCC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@H]1/C=C/CCNC(=O)/C=C/[C@H](C(C)C)NC1=O",
+                "standard_value": 1.6,
+                "assay_chembl_id": "CHEMBL5551614",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 88,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "VEGFR2_Ki_WT_ChEMBL_875_nodubl.csv",
+      "total_rows": 875,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 851,
+        "total_rows": 875,
+        "duplicate_smiles_count": 20,
+        "rows_with_duplicate_smiles": 44,
+        "duplicate_smiles": {
+          "Cn1ccc2ncnc(Oc3ccc(NC(=O)Nc4cccc(C(F)(F)F)c4)c(F)c3)c21": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cn1ccc2ncnc(Oc3ccc(NC(=O)Nc4cccc(C(F)(F)F)c4)c(F)c3)c21",
+                "standard_value": 23.0,
+                "assay_chembl_id": "CHEMBL1821205",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1ccc2ncnc(Oc3ccc(NC(=O)Nc4cccc(C(F)(F)F)c4)c(F)c3)c21",
+                "standard_value": 4.6,
+                "assay_chembl_id": "CHEMBL1821207",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1ccc2ncnc(Oc3ccc(NC(=O)Nc4cccc(C(F)(F)F)c4)c(F)c3)c21",
+                "standard_value": 0.024,
+                "assay_chembl_id": "CHEMBL1821211",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cn1ccc2ncnc(Oc3ccc(NC(=O)Nc4cccc(C(F)(F)F)c4)c(F)c3)c21",
+                "standard_value": 0.044,
+                "assay_chembl_id": "CHEMBL1821212",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1": {
+            "count": 4,
+            "example_rows": [
+              {
+                "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+                "standard_value": 22.0,
+                "assay_chembl_id": "CHEMBL1821207",
+                "molecule_pref_name": "SORAFENIB"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+                "standard_value": 0.021,
+                "assay_chembl_id": "CHEMBL1821211",
+                "molecule_pref_name": "SORAFENIB"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+                "standard_value": 0.12,
+                "assay_chembl_id": "CHEMBL1821212",
+                "molecule_pref_name": "SORAFENIB"
+              },
+              {
+                "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+                "standard_value": 39.81,
+                "assay_chembl_id": "CHEMBL1963788",
+                "molecule_pref_name": "SORAFENIB"
+              }
+            ]
+          },
+          "CC(C)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(C)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1",
+                "standard_value": 160.0,
+                "assay_chembl_id": "CHEMBL960814",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CC(C)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1",
+                "standard_value": 140.0,
+                "assay_chembl_id": "CHEMBL960815",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1cccc(C(F)(F)F)c1)c1nscc1NCc1ccncc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1cccc(C(F)(F)F)c1)c1nscc1NCc1ccncc1",
+                "standard_value": 130.0,
+                "assay_chembl_id": "CHEMBL1023845",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1cccc(C(F)(F)F)c1)c1nscc1NCc1ccncc1",
+                "standard_value": 160.0,
+                "assay_chembl_id": "CHEMBL1036678",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+                "standard_value": 2.9,
+                "assay_chembl_id": "CHEMBL1821207",
+                "molecule_pref_name": "SUNITINIB"
+              },
+              {
+                "canonical_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+                "standard_value": 9.0,
+                "assay_chembl_id": "CHEMBL2066138",
+                "molecule_pref_name": "SUNITINIB"
+              }
+            ]
+          },
+          "CCCn1c(C)c(C(=O)Nc2ccc(Oc3ccnc4cc(OC)ccc34)c(F)c2)c(=O)n1-c1ccccc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CCCn1c(C)c(C(=O)Nc2ccc(Oc3ccnc4cc(OC)ccc34)c(F)c2)c(=O)n1-c1ccccc1",
+                "standard_value": 161.0,
+                "assay_chembl_id": "CHEMBL2032454",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CCCn1c(C)c(C(=O)Nc2ccc(Oc3ccnc4cc(OC)ccc34)c(F)c2)c(=O)n1-c1ccccc1",
+                "standard_value": 460.0,
+                "assay_chembl_id": "CHEMBL989219",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "FC(F)(F)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "FC(F)(F)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1",
+                "standard_value": 90.0,
+                "assay_chembl_id": "CHEMBL960814",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "FC(F)(F)c1cccc(-n2cc(-c3ccccc3NCc3ccncc3)nn2)c1",
+                "standard_value": 80.0,
+                "assay_chembl_id": "CHEMBL960815",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1cccc(OC(F)(F)Cl)c1)c1ccnn1CCc1ccncc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1cccc(OC(F)(F)Cl)c1)c1ccnn1CCc1ccncc1",
+                "standard_value": 70.0,
+                "assay_chembl_id": "CHEMBL897502",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1cccc(OC(F)(F)Cl)c1)c1ccnn1CCc1ccncc1",
+                "standard_value": 90.0,
+                "assay_chembl_id": "CHEMBL897508",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "CC(C)(C)c1cccc(NC(=O)c2nscc2NCc2ccncc2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(C)(C)c1cccc(NC(=O)c2nscc2NCc2ccncc2)c1",
+                "standard_value": 120.0,
+                "assay_chembl_id": "CHEMBL1023845",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CC(C)(C)c1cccc(NC(=O)c2nscc2NCc2ccncc2)c1",
+                "standard_value": 130.0,
+                "assay_chembl_id": "CHEMBL1036678",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=C(Nc1ccc(OC(F)(F)F)cc1)c1ccnn1CCc1ccncc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(Nc1ccc(OC(F)(F)F)cc1)c1ccnn1CCc1ccncc1",
+                "standard_value": 90.0,
+                "assay_chembl_id": "CHEMBL897502",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=C(Nc1ccc(OC(F)(F)F)cc1)c1ccnn1CCc1ccncc1",
+                "standard_value": 80.0,
+                "assay_chembl_id": "CHEMBL897508",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 875,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    },
+    {
+      "file": "hERG_Ki_WT_curated_417_nodubl.csv",
+      "total_rows": 417,
+      "duplicates_by_smiles": {
+        "total_unique_smiles": 405,
+        "total_rows": 417,
+        "duplicate_smiles_count": 10,
+        "rows_with_duplicate_smiles": 22,
+        "duplicate_smiles": {
+          "CC(C)COCC(CN(Cc1ccccc1)c1ccccc1)N1CCCC1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CC(C)COCC(CN(Cc1ccccc1)c1ccccc1)N1CCCC1",
+                "standard_value": 444.0,
+                "assay_chembl_id": "CHEMBL863591",
+                "molecule_pref_name": "BEPRIDIL"
+              },
+              {
+                "canonical_smiles": "CC(C)COCC(CN(Cc1ccccc1)c1ccccc1)N1CCCC1",
+                "standard_value": 184.0,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": "BEPRIDIL"
+              },
+              {
+                "canonical_smiles": "CC(C)COCC(CN(Cc1ccccc1)c1ccccc1)N1CCCC1",
+                "standard_value": 291.0,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": "BEPRIDIL"
+              }
+            ]
+          },
+          "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1": {
+            "count": 3,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
+                "standard_value": 4060.0,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": "CLOZAPINE"
+              },
+              {
+                "canonical_smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
+                "standard_value": 3080.0,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": "CLOZAPINE"
+              },
+              {
+                "canonical_smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
+                "standard_value": 17000.0,
+                "assay_chembl_id": "CHEMBL954169",
+                "molecule_pref_name": "CLOZAPINE"
+              }
+            ]
+          },
+          "NC(=O)c1cccc(S(=O)(=O)C2CCN(CCc3ccc(F)cc3F)CC2)c1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "NC(=O)c1cccc(S(=O)(=O)C2CCN(CCc3ccc(F)cc3F)CC2)c1",
+                "standard_value": 7143.01,
+                "assay_chembl_id": "CHEMBL1027667",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "NC(=O)c1cccc(S(=O)(=O)C2CCN(CCc3ccc(F)cc3F)CC2)c1",
+                "standard_value": 7143.0,
+                "assay_chembl_id": "CHEMBL816205",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1",
+                "standard_value": 2.9,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": "ASTEMIZOLE"
+              },
+              {
+                "canonical_smiles": "COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1",
+                "standard_value": 12.8,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": "ASTEMIZOLE"
+              }
+            ]
+          },
+          "COCC(=O)O[C@]1(CCN(C)CCCc2nc3ccccc3[nH]2)CCc2cc(F)ccc2[C@@H]1C(C)C": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "COCC(=O)O[C@]1(CCN(C)CCCc2nc3ccccc3[nH]2)CCc2cc(F)ccc2[C@@H]1C(C)C",
+                "standard_value": 190.0,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": "MIBEFRADIL"
+              },
+              {
+                "canonical_smiles": "COCC(=O)O[C@]1(CCN(C)CCCc2nc3ccccc3[nH]2)CCc2cc(F)ccc2[C@@H]1C(C)C",
+                "standard_value": 353.0,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": "MIBEFRADIL"
+              }
+            ]
+          },
+          "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1",
+                "standard_value": 512.0,
+                "assay_chembl_id": "CHEMBL863591",
+                "molecule_pref_name": "HALOPERIDOL"
+              },
+              {
+                "canonical_smiles": "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1",
+                "standard_value": 120.0,
+                "assay_chembl_id": "CHEMBL954169",
+                "molecule_pref_name": "HALOPERIDOL"
+              }
+            ]
+          },
+          "CN(CCOc1ccc(NS(C)(=O)=O)cc1)CCc1ccc(NS(C)(=O)=O)cc1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN(CCOc1ccc(NS(C)(=O)=O)cc1)CCc1ccc(NS(C)(=O)=O)cc1",
+                "standard_value": 7.7,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": "DOFETILIDE"
+              },
+              {
+                "canonical_smiles": "CN(CCOc1ccc(NS(C)(=O)=O)cc1)CCc1ccc(NS(C)(=O)=O)cc1",
+                "standard_value": 6.4,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": "DOFETILIDE"
+              }
+            ]
+          },
+          "CN1CCCC(c2c(-c3ccccc3)[nH]c3ccccc23)C1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "CN1CCCC(c2c(-c3ccccc3)[nH]c3ccccc23)C1",
+                "standard_value": 9599.99,
+                "assay_chembl_id": "CHEMBL1027667",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "CN1CCCC(c2c(-c3ccccc3)[nH]c3ccccc23)C1",
+                "standard_value": 9600.0,
+                "assay_chembl_id": "CHEMBL768699",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "Cc1cccc(CCN2CCC(C(=O)c3ccc(NS(C)(=O)=O)cc3)CC2)n1.Cl.Cl": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "Cc1cccc(CCN2CCC(C(=O)c3ccc(NS(C)(=O)=O)cc3)CC2)n1.Cl.Cl",
+                "standard_value": 18.7,
+                "assay_chembl_id": "CHEMBL889314",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "Cc1cccc(CCN2CCC(C(=O)c3ccc(NS(C)(=O)=O)cc3)CC2)n1.Cl.Cl",
+                "standard_value": 19.4,
+                "assay_chembl_id": "CHEMBL889315",
+                "molecule_pref_name": null
+              }
+            ]
+          },
+          "O=S(=O)(c1ccc(F)cc1)C1(F)CCN(CCc2ccc(F)cc2F)CC1": {
+            "count": 2,
+            "example_rows": [
+              {
+                "canonical_smiles": "O=S(=O)(c1ccc(F)cc1)C1(F)CCN(CCc2ccc(F)cc2F)CC1",
+                "standard_value": 5561.0,
+                "assay_chembl_id": "CHEMBL875187",
+                "molecule_pref_name": null
+              },
+              {
+                "canonical_smiles": "O=S(=O)(c1ccc(F)cc1)C1(F)CCN(CCc2ccc(F)cc2F)CC1",
+                "standard_value": 5600.0,
+                "assay_chembl_id": "CHEMBL886667",
+                "molecule_pref_name": null
+              }
+            ]
+          }
+        }
+      },
+      "duplicates_by_smiles_and_article_different_ki": {
+        "total_cases": 0,
+        "total_rows_involved": 0,
+        "examples": []
+      },
+      "duplicates_by_full_row": {
+        "total_unique_rows": 417,
+        "duplicate_row_count": 0,
+        "rows_with_duplicates": 0,
+        "examples": []
+      }
+    }
+  ]
+}

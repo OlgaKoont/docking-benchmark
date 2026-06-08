@@ -1,0 +1,37 @@
+# Methods configuration for docking benchmark 2.0
+
+gnina:
+  binary: "gnina"
+  exhaustiveness: 8
+  num_modes: 9
+  use_cnn: false
+  docking_timeout: 600  # Timeout per ligand in seconds (10 minutes default). Set to null for no timeout.
+  conda_env: "gnina"  # Optional: conda environment name
+
+qvina:
+  binary: "qvina02"
+  exhaustiveness: 8
+  random_seed: 42
+  num_modes: 10
+  energy_range: 10  # Energy range for detailed output (kcal/mol)
+  verbose_energy: true  # Enable detailed energy breakdown in logs
+  docking_timeout: null
+  conda_env: "docking"  # Optional: conda environment name
+
+plapt:
+  plapt_path: "/mnt/tank/scratch/okonovalova/WELP-PLAPT"
+  device: "cuda"  # "cuda" or "cpu"
+  batch_size: 16
+  docking_timeout: 300  # 5 minutes default
+  conda_env: "plapt"  # Optional: conda environment name
+
+interformer:
+  repo_path: "/mnt/tank/scratch/okonovalova/Interformer_bench"
+  conda_env: "interformer"
+  gpus: 1
+  omp_threads: 8
+  pocket_radius: 10.0
+  energy_checkpoint: "/mnt/tank/scratch/okonovalova/Interformer_bench/checkpoints/v0.2_energy_model"
+  affinity_checkpoint: "/mnt/tank/scratch/okonovalova/Interformer_bench/checkpoints/v0.2_affinity_model/model*"
+  affinity_batch_size: 20
+  num_output_poses: 20

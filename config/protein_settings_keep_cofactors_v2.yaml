@@ -1,0 +1,76 @@
+# Protein preparation overrides (v2 preset).
+#
+# Goal: keep essential cofactors / metals that are part of the functional binding site
+# while still excluding co-crystal ligands, crystallization additives and solvents.
+#
+# This file is OPTIONAL and does not affect default behavior unless passed via
+# `--protein-settings` CLI flag or referenced from a config YAML.
+#
+# Supported keys (see `src/docking_benchmark2/preprocessing/proteins.py`):
+# - chain: "A"
+# - include_ligands: bool                 # include ALL HETATM (not recommended for docking)
+# - include_cofactors: bool               # enables HETATM in output
+# - include_waters: bool
+# - keep_het_resnames: [ "HEM", "FAD", ... ]   # if non-empty, ONLY these HETATM resnames are kept
+# - drop_het_resnames: [ ... ]                # optional blacklist (used only when keep_het_resnames is empty)
+#
+# Notes:
+# - For P450s / aromatase, keep HEM.
+# - For MAO, keep FAD.
+# - For CRBN, keep ZN.
+# - For JAK1/JAK2, PTR is present as a modified residue (O-phosphotyrosine) and can be kept.
+#
+# Everything else keeps the original defaults (HETATM excluded).
+
+_default:
+  # Optional pH-based protonation before Meeko.
+  # Requires installing pdb2pqr in the environment used for preparation:
+  #   pip install pdb2pqr
+  #
+  # If pdb2pqr is not available, the pipeline will print a warning and continue
+  # with the original (non-pH-aware) preparation.
+  protonate:
+    enabled: true
+    tool: pdb2pqr
+    ph: 7.0
+    ff: AMBER
+
+1tqn:
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [HEM]
+
+5jkv:
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [HEM]
+
+4wnv:
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [HEM]
+
+2z5x:
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [FAD]
+
+4tz4:
+  # CRBN: keep structural Zn (co-crystal ligand LVY removed)
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [ZN]
+
+3eyg:
+  # JAK1: keep phosphorylated tyrosines (PTR) as part of the experimental state
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [PTR]
+
+3jy9:
+  # JAK2: keep phosphorylated tyrosines (PTR) as part of the experimental state
+  chain: A
+  include_cofactors: true
+  keep_het_resnames: [PTR]
+
+

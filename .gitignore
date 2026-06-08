@@ -1,0 +1,50 @@
+# Local archive / legacy (not part of public repo)
+docking-benchmark-2/
+manuscript/
+
+# Raw docking outputs (large; use Zenodo)
+results/
+
+# Generated analysis artifacts (reproducible from data/)
+analysis/tables/
+analysis/figures/
+analysis/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+
+# Conda / env
+.env
+.venv/
+*.egg
+
+# HPC / logs
+*.out
+*.err
+slurm-*
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+*~
+.vscode/
+.idea/
+
+# Large or sensitive inputs (publish separately)
+# Uncomment if uploading code-only snapshot:
+# input/ligands/
+# input/ligands_nodubl/
+# processed/
+input/bindingdb/
+
+# Data snapshot (optional — publish via Zenodo)
+# data/merged/
+# data/posebusters/
+# data/posebusters_boltz2/
