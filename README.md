@@ -1,4 +1,4 @@
-# ToxDock-Bench (ToxAffinity)
+# ToxAffinity
 
 ToxDock-Bench is a toxicity-oriented docking benchmark built on a curated 16-target BindingDB panel.  
 The repository provides a reproducible pipeline from structure preparation to docking, postprocessing, pose validation, and manuscript-grade statistical analysis.
