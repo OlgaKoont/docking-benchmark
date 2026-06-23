@@ -5,6 +5,7 @@ from __future__ import annotations
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
+import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -13,9 +14,12 @@ from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.gridspec import GridSpec
 
 from ..config import AnalysisConfig
+from ..constants import DEFAULT_METHOD_COLORS, METHOD_COLOR_CORRELATION_ANCHORS
 
 ALL_TARGETS_LABEL = "All targets"
-GAP_RATIO = 0.10
+# Vertical/horizontal gap between summary (All targets) and per-target blocks in GridSpec.
+GAP_RATIO = 0.025  # was 0.10; 4× tighter summary-to-body spacing
+SUMMARY_BODY_HSPACE = GAP_RATIO * 5  # combined multi-panel heatmaps (e.g. correlations_combined)
 
 # Article diverging palette: blue (negative) → gray/white (0) → salmon (positive).
 # Positions are in colormap space [0, 1] matching data range [-1, +1] with center=0.
@@ -51,6 +55,14 @@ def correlation_diverging_cmap(
     """Salmon (positive) — gray (0) — blue (negative), article heatmap palette."""
     _ = cfg  # reserved for future per-run overrides
     return LinearSegmentedColormap.from_list(name, CORRELATION_DIVERGING_STOPS, N=256)
+
+
+def correlation_value_color(value: float) -> str:
+    """Hex color from the article correlation heatmap scale at Pearson r = value."""
+    cmap = correlation_diverging_cmap()
+    t = (float(value) + 1.0) / 2.0
+    t = min(max(t, 0.0), 1.0)
+    return mcolors.to_hex(cmap(t))
 
 
 def positive_sequential_cmap(
@@ -93,7 +105,11 @@ def save_figure(fig: plt.Figure, path_base: Path) -> None:
 
 
 def method_color(cfg: AnalysisConfig, method_id: str, default: str = "#555555") -> str:
-    return cfg.method_colors.get(method_id, default)
+    if method_id in cfg.method_colors:
+        return cfg.method_colors[method_id]
+    if method_id in METHOD_COLOR_CORRELATION_ANCHORS:
+        return correlation_value_color(METHOD_COLOR_CORRELATION_ANCHORS[method_id])
+    return DEFAULT_METHOD_COLORS.get(method_id, default)
 
 
 def _format_annot(mat: pd.DataFrame, fmt: str) -> np.ndarray:
@@ -154,7 +170,7 @@ def plot_heatmap_with_summary_row(
         center=center,
         linewidths=0.5,
         linecolor="white",
-        annot_kws={"size": 9},
+        annot_kws={"size": 9, "color": "black"},
         cbar_ax=cbar_ax,
         cbar_kws={"label": cbar_label},
     )
@@ -180,7 +196,9 @@ def plot_heatmap_with_summary_row(
     ax_top.tick_params(axis="x", labelbottom=False)
     ax_bot.set_xlabel("Docking method")
     ax_bot.set_ylabel("Target")
-    ax_bot.tick_params(axis="x", rotation=45)
+    ax_top.tick_params(axis="y", rotation=0)
+    ax_bot.tick_params(axis="x", rotation=0)
+    ax_bot.tick_params(axis="y", rotation=0)
     fig.suptitle(title, y=1.02, fontsize=11)
     save_figure(fig, path_base)
 
@@ -197,6 +215,9 @@ def plot_heatmap_with_summary_col(
     fmt: str,
     path_base: Path,
     figsize_scale: tuple[float, float] = (0.45, 0.22),
+    body_annot: bool = False,
+    body_fmt: str | None = None,
+    y_label: str = "Check",
 ) -> None:
     """Heatmap: one summary column (All targets) + gap + per-target columns."""
     summary_df = summary_col.to_frame()
@@ -226,6 +247,7 @@ def plot_heatmap_with_summary_col(
         linecolor="white",
         cbar_ax=cbar_ax,
         cbar_kws={"label": cbar_label},
+        annot_kws={"size": 8, "color": "black"},
     )
 
     sns.heatmap(
@@ -239,19 +261,238 @@ def plot_heatmap_with_summary_col(
     sns.heatmap(
         body,
         ax=ax_mid,
-        annot=False,
+        annot=_format_annot(body, body_fmt or fmt) if body_annot and (body_fmt or fmt) else False,
+        fmt="" if body_annot else "",
         **heatmap_kw,
     )
 
-    ax_left.set_ylabel("Check")
+    ax_left.set_ylabel(y_label)
     ax_left.set_xlabel("")
     ax_left.tick_params(axis="y", labelleft=True, pad=2)
     for tick in ax_left.get_yticklabels():
         tick.set_fontsize(8)
     ax_mid.set_ylabel("")
     ax_mid.set_xlabel("Target")
-    ax_mid.tick_params(axis="x", rotation=45)
+    ax_mid.tick_params(axis="x", rotation=0)
     # Keep check labels only on the left summary panel.
     ax_mid.tick_params(axis="y", left=False, labelleft=False)
     fig.suptitle(title, y=1.02, fontsize=11)
+    save_figure(fig, path_base)
+
+
+def plot_heatmap_with_summary_row_and_col(
+    summary_row: pd.Series,
+    summary_col: pd.Series,
+    body: pd.DataFrame,
+    *,
+    title: str,
+    cbar_label: str,
+    cmap: LinearSegmentedColormap,
+    vmin: float,
+    vmax: float,
+    fmt: str,
+    path_base: Path,
+    figsize_scale: tuple[float, float] = (0.90, 0.44),
+    x_label: str = "Target",
+    y_label: str = "Tests",
+) -> None:
+    """Heatmap with both All tests row and All targets column summaries."""
+    top_left = pd.DataFrame(
+        [[float(body.stack().mean()) if not body.stack().empty else np.nan]],
+        index=["All"],
+        columns=["All"],
+    )
+    top_row = summary_row.to_frame().T
+    top_row.index = ["All tests"]
+    left_col = summary_col.to_frame()
+    left_col.columns = [ALL_TARGETS_LABEL]
+
+    n_rows = len(body.index)
+    n_cols = len(body.columns)
+    fig_w = max(10.0, figsize_scale[0] * (1 + n_cols) + 2.0)
+    fig_h = max(6.8, figsize_scale[1] * (1 + n_rows) + 1.0)
+    fig = plt.figure(figsize=(fig_w, fig_h))
+    gs = GridSpec(
+        2,
+        3,
+        figure=fig,
+        height_ratios=[1.0, max(n_rows, 1)],
+        width_ratios=[1.35, max(n_cols, 1), 0.045],
+        hspace=GAP_RATIO,
+        wspace=GAP_RATIO,
+    )
+    ax_corner = fig.add_subplot(gs[0, 0])
+    ax_top = fig.add_subplot(gs[0, 1])
+    ax_left = fig.add_subplot(gs[1, 0])
+    ax_body = fig.add_subplot(gs[1, 1])
+    cbar_ax = fig.add_subplot(gs[:, 2])
+
+    heatmap_kw = dict(
+        cmap=cmap,
+        vmin=vmin,
+        vmax=vmax,
+        linewidths=0.3,
+        linecolor="white",
+        annot_kws={"size": 8, "color": "black"},
+    )
+
+    sns.heatmap(
+        top_left,
+        ax=ax_corner,
+        annot=_format_annot(top_left, fmt),
+        fmt="",
+        cbar=False,
+        **heatmap_kw,
+    )
+    sns.heatmap(
+        top_row,
+        ax=ax_top,
+        annot=_format_annot(top_row, fmt),
+        fmt="",
+        cbar=False,
+        **heatmap_kw,
+    )
+    sns.heatmap(
+        left_col,
+        ax=ax_left,
+        annot=_format_annot(left_col, fmt),
+        fmt="",
+        cbar=False,
+        **heatmap_kw,
+    )
+    sns.heatmap(
+        body,
+        ax=ax_body,
+        annot=_format_annot(body, fmt),
+        fmt="",
+        cbar_ax=cbar_ax,
+        cbar_kws={"label": cbar_label},
+        **heatmap_kw,
+    )
+
+    ax_corner.set_xlabel("")
+    ax_corner.set_ylabel("")
+    ax_corner.tick_params(axis="x", rotation=0)
+    ax_corner.tick_params(axis="y", rotation=0)
+
+    ax_top.set_xlabel("")
+    ax_top.set_ylabel("")
+    ax_top.tick_params(axis="x", labelbottom=False)
+    ax_top.tick_params(axis="y", rotation=0)
+
+    ax_left.set_xlabel("")
+    ax_left.set_ylabel(y_label)
+    ax_left.tick_params(axis="x", rotation=0)
+    ax_left.tick_params(axis="y", labelleft=True, pad=2)
+    for tick in ax_left.get_yticklabels():
+        tick.set_fontsize(8)
+
+    ax_body.set_xlabel(x_label)
+    ax_body.set_ylabel("")
+    ax_body.tick_params(axis="x", rotation=0)
+    ax_body.tick_params(axis="y", left=False, labelleft=False)
+
+    fig.suptitle(title, y=1.02, fontsize=11)
+    save_figure(fig, path_base)
+
+
+def plot_combined_heatmaps_with_summary_row(
+    panels: list[tuple[str, pd.Series, pd.DataFrame]],
+    *,
+    cbar_label: str,
+    cmap: LinearSegmentedColormap,
+    vmin: float | None,
+    vmax: float | None,
+    center: float | None,
+    fmt: str,
+    path_base: Path,
+    x_label: str = "Docking method",
+    y_label: str = "Target",
+    col_width: float = 0.85,
+    row_height: float = 0.36,
+) -> None:
+    """Side-by-side heatmaps sharing one colorbar and one bottom x-axis label."""
+    if not panels:
+        return
+
+    n_panels = len(panels)
+    n_cols = len(panels[0][2].columns)
+    n_body = len(panels[0][2].index)
+
+    panel_w = max(3.8, col_width * n_cols + 0.6)
+    fig_w = panel_w * n_panels + 1.1
+    fig_h = max(5.8, row_height * (1 + n_body) + 1.6)
+    width_ratios = [panel_w] * n_panels + [0.045]
+
+    fig = plt.figure(figsize=(fig_w, fig_h))
+    gs = GridSpec(
+        2,
+        n_panels + 1,
+        figure=fig,
+        height_ratios=[1.0, max(n_body, 1)],
+        width_ratios=width_ratios,
+        hspace=SUMMARY_BODY_HSPACE,
+        wspace=0.10,
+        left=0.06,
+        right=0.94,
+        top=0.90,
+        bottom=0.14,
+    )
+    cbar_ax = fig.add_subplot(gs[:, n_panels])
+
+    heatmap_kw = dict(
+        cmap=cmap,
+        vmin=vmin,
+        vmax=vmax,
+        center=center,
+        linewidths=0.5,
+        linecolor="white",
+        annot_kws={"size": 8, "color": "black"},
+    )
+
+    for idx, (title, summary_row, body) in enumerate(panels):
+        summary_df = summary_row.to_frame().T
+        summary_df.index = [ALL_TARGETS_LABEL]
+
+        ax_top = fig.add_subplot(gs[0, idx])
+        ax_bot = fig.add_subplot(gs[1, idx], sharex=ax_top)
+
+        sns.heatmap(
+            summary_df,
+            ax=ax_top,
+            annot=_format_annot(summary_df, fmt),
+            fmt="",
+            cbar=False,
+            **heatmap_kw,
+        )
+        sns.heatmap(
+            body,
+            ax=ax_bot,
+            annot=_format_annot(body, fmt),
+            fmt="",
+            cbar=(idx == n_panels - 1),
+            cbar_ax=cbar_ax if idx == n_panels - 1 else None,
+            cbar_kws={"label": cbar_label},
+            **heatmap_kw,
+        )
+
+        ax_top.set_title(title, fontsize=11, pad=8)
+        ax_top.set_xlabel("")
+        ax_top.set_ylabel("")
+        ax_top.tick_params(axis="x", labelbottom=False)
+        ax_top.tick_params(axis="y", rotation=0)
+
+        ax_bot.set_xlabel("")
+        ax_bot.tick_params(axis="x", rotation=0)
+        ax_bot.tick_params(axis="y", rotation=0)
+        if idx == 0:
+            ax_top.set_ylabel("")
+            ax_bot.set_ylabel(y_label)
+        else:
+            ax_top.set_ylabel("")
+            ax_bot.set_ylabel("")
+            ax_top.tick_params(axis="y", left=False, labelleft=False)
+            ax_bot.tick_params(axis="y", left=False, labelleft=False)
+
+    fig.supxlabel(x_label, fontsize=10, y=0.01)
     save_figure(fig, path_base)
