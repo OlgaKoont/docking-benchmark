@@ -80,7 +80,36 @@ Interpretation scope:
   - core code: `src/analysis/`
   - postprocess bridge: `pipeline/postprocess/`.
 
-## Zenodo Artifacts
+## GitHub release bundle
+
+The repository tracks **`analysis/tables/`** and **`analysis/figures/`** (~111 MB total) as the canonical manuscript/SI analysis bundle. Logs under `analysis/logs/` stay local.
+
+| Path | Contents | Size (approx.) |
+|---|---|---|
+| `analysis/tables/` | CSV summaries, merged ligand scores, inferential tests, overlap audit | ~20 MB |
+| `analysis/figures/` | PNG + SVG for heatmaps, scatters, nEF, PoseBusters, Wilcoxon | ~92 MB |
+
+SI LaTeX PNGs are a **flat copy** of figures from `analysis/figures/`:
+
+```bash
+bash manuscript/supplementary/build_si.sh   # copies *.png → manuscript/supplementary/images/
+```
+
+To publish on GitHub after updating analysis:
+
+```bash
+git add analysis/tables analysis/figures analysis/README.md analysis/config
+git status analysis/
+git commit -m "Add AffiTox analysis tables and figure bundle for manuscript reproduction."
+git push origin main
+```
+
+Optional Zenodo zip of the same tree:
+
+```bash
+bash pipeline/postprocess/package_zenodo.sh   # creates toxdock-analysis-artifacts.zip
+```
+
 
 | Zenodo link | What it contains | Notes |
 |---|---|---|

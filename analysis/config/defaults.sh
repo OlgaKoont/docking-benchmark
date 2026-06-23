@@ -20,7 +20,11 @@ if [[ ! -d "${POSEBUSTERS_BOLTZ2_DIR}" && -d "${ANALYSIS_ROOT}/tables/posebuster
 fi
 
 # --- analysis-specific overrides ---
-PYTHON="${PYTHON:-/mnt/tank/scratch/okonovalova/miniconda3/envs/docking/bin/python}"
+# project.env.sh sets PYTHON=python3; analysis always needs the docking env unless overridden at submit time.
+if [[ -z "${PYTHON:-}" || "${PYTHON}" == "python3" ]]; then
+  PYTHON="/mnt/tank/scratch/okonovalova/miniconda3/envs/docking/bin/python"
+fi
+export PYTHON
 
 # --- experimental axis ---
 EXP_COL="${EXP_COL:-pValue}"
@@ -30,9 +34,9 @@ COLOR_LOW="${COLOR_LOW:-#6584E1}"
 COLOR_MID="${COLOR_MID:-#DEDAD7}"
 COLOR_HIGH="${COLOR_HIGH:-#E5885F}"
 
-METHOD_COLORS="${METHOD_COLORS:-boltz2:#E5885F,dynamicbind:#6584E1,gnina:#A2BFFF,plapt:#B7CAEA,qvina:#F18C6E}"
+METHOD_COLORS="${METHOD_COLORS:-boltz2:#E5885F,dynamicbind:#FDBBAA,gnina:#AFC6F2,plapt:#DEDAD7,qvina:#6584E1}"
 
-FIGURE_DPI="${FIGURE_DPI:-500}"
+FIGURE_DPI="${FIGURE_DPI:-700}"
 FONT_FAMILY="${FONT_FAMILY:-DejaVu Sans}"
 
 N_BOOTSTRAP="${N_BOOTSTRAP:-10000}"

@@ -5,10 +5,10 @@ manuscript/
 # Raw docking outputs (large; use Zenodo)
 results/
 
-# Generated analysis artifacts (reproducible from data/)
-analysis/tables/
-analysis/figures/
+# Generated analysis artifacts — publish tables + figures for GitHub/Zenodo Tier C
+# (re-run: pipeline/postprocess/run_article_analysis.sh)
 analysis/logs/
+analysis/logs/**
 
 # Python
 __pycache__/
